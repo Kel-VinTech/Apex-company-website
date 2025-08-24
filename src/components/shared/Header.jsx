@@ -4,13 +4,15 @@ import { Link } from "react-router-dom";
 import Button from "../elements/Button";
 import { IoCall } from "react-icons/io5";
 
+import companyLogo from "src/assets/image/IMG-20241213-WA0009_prev_ui.png";
+
 export default function Header() {
   return (
     <header className="absolute top-0 left-0 w-full shadow-md">
     <div className="flex justify-between items-center py-4 px-16 
     md:px-20 lg:px-32 bg-white">
       <img
-        src="src/assets/image/IMG-20241213-WA0009_prev_ui.png"
+        src={companyLogo}
         className="max-w-20"
         alt="company logo"
       />
