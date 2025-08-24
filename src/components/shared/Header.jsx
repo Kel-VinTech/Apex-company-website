@@ -13,7 +13,7 @@ export default function Header() {
     md:px-20 lg:px-32 bg-white">
       <img
         src={companyLogo}
-        className="max-w-20"
+        className="max-w-15 md:max-w-20"
         alt="company logo"
       />
 

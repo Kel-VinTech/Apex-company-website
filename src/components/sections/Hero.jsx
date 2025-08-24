@@ -11,7 +11,7 @@ export default function Hero() {
           "url(src/assets/image/authentic-small-youthful-marketing-agency.jpg)",
       }}
     >
-      <div className=" flex flex-col items-start justify-center py-4 px-16 
+      <div className=" flex flex-col items-start justify-center py-4 px-6 
         md:px-20 lg:px-32">
         <h3 className="text-xl font-bold mb-2 text-gray-600">Welcome to Apex Recruitment Agency</h3>
         <h1 className="text-4xl font-bold mb-4 text-gray-800">
