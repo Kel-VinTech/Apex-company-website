@@ -17,7 +17,7 @@ export default function Services() {
 
 
 
-         <div className=" flex flex-col items-start justify-center py-20 px-16 
+         <div className=" flex flex-col items-start justify-center py-20 px-6 
             md:px-20 lg:px-32">
 
              <h1 className="text-3xl font-bold mb-4 text-gray-800">Our Services</h1>
