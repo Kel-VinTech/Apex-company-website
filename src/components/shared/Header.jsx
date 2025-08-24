@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Button from "../elements/Button";
 import { IoCall } from "react-icons/io5";
 
-import companyLogo from "src/assets/image/IMG-20241213-WA0009_prev_ui.png";
+import companyLogo from "../../assets/image/IMG-20241213-WA0009_prev_ui.png";
 
 export default function Header() {
   return (
