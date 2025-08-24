@@ -5,6 +5,10 @@ import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { GoClockFill } from "react-icons/go";
 
+import serviceImage from "../../src/assets/image/bg_contact.jpg"
+import mapImg from "../../src/assets/image/map_2.png"
+import contactImg from "../../src/assets/image/contact_1.jpg"
+
 
 export default function Contact() {
   return (
@@ -14,7 +18,7 @@ export default function Contact() {
          className="w-full h-[30vh] flex items-center  justify-center
              bg-cover bg-center bg-black/60 bg-blend-multiply"
             style={{
-            backgroundImage:"url(src/assets/image/pexels-sora-shimazaki-5668517-min.jpg)",
+            backgroundImage: `url(${serviceImage})`,
             }}>
       
               <h1 className="mt-20 text-2xl md:text-3xl text-white font-bold">Our Contacts</h1>
@@ -46,14 +50,14 @@ export default function Contact() {
 
                 <div className="h-64 md:h-80 lg:h-96 bg-cover bg-center rounded-lg"
                  style={{
-                    backgroundImage:"url(src/assets/image/smiling-young.jpg)",
+                    backgroundImage: `url(${contactImg})`,
                   }}>
 
                 </div>
                 
                 <div className="h-64 md:h-85 lg:h-96 bg-cover bg-center rounded-lg"
                  style={{
-                    backgroundImage:"url(src/assets/image/map_2.png)",
+                    backgroundImage: `url(${mapImg})`,
                   }}>
 
                 </div>
