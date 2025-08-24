@@ -8,14 +8,16 @@ import companyLogo from "../../assets/image/IMG-20241213-WA0009_prev_ui.png";
 
 export default function Header() {
   return (
-    <header className="absolute top-0 left-0 w-full shadow-md">
+    <header className="fixed z-50 top-0 left-0 w-full shadow-md">
     <div className="flex justify-between items-center py-4 px-6 
     md:px-20 lg:px-32 bg-white">
-      <img
-        src={companyLogo}
-        className="max-w-15 md:max-w-20"
-        alt="company logo"
-      />
+      <Link className="block no-underline focus:outline-none" to="/">
+        <img
+          src={companyLogo}
+          alt="Apex Consulting Logo"
+          className="h-12 w-auto cursor-pointer"
+        />
+      </Link>
 
       <nav className="hidden md:flex space-x-4 lg:space-x-32">
         <Link to="/" className="hover:text-blue-700">

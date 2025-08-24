@@ -102,19 +102,26 @@ export default function Footer() {
                 <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    <Link to="/about" className="hover:text-gray-300">About</Link>
+                    <Link to="/about"
+                    onClick={() => window.scrollTo(0, 0)} 
+                     className="hover:text-gray-300">About</Link>
                 </li>
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    <Link to="/services" className="hover:text-gray-300">Services</Link>
+                    <Link to="/services" 
+                    onClick={() => window.scrollTo(0, 0)} 
+                    className="hover:text-gray-300">Services</Link>
                 </li>
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    <Link to="/faq" className="hover:text-gray-300">FAQ</Link>
+                    <Link to="/faq"
+                     className="hover:text-gray-300">FAQ</Link>
                 </li>
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    <Link to="/contact" className="hover:text-gray-300">Contact</Link>
+                    <Link to="/contact" 
+                    onClick={() => window.scrollTo(0, 0)} 
+                    className="hover:text-gray-300">Contact</Link>
                 </li>
                 </ul>
             </div>
@@ -125,19 +132,19 @@ export default function Footer() {
                 <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    Recruitment
+                    Job Recruitment/ Internship
                 </li>
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    Onboarding
+                    General HR Services
                 </li>
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    Policy Handbooks
+                    Policy Handbooks/ Profile Writing
                 </li>
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    Training
+                    Customer Service Training
                 </li>
                 </ul>
             </div>
