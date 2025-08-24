@@ -20,18 +20,18 @@ export default function Header() {
       </Link>
 
       <nav className="hidden md:flex space-x-4 lg:space-x-32">
-        <Link to="/" className="hover:text-blue-700">
+        <a href="/" className="hover:text-blue-700">
           Home
-        </Link>
-        <Link to="/about" className="hover:text-blue-700">
+        </a>
+        <a href="/about" className="hover:text-blue-700">
           About Us
-        </Link>
-        <Link to="/services" className="cursor-pointer hover:text-blue-700">
+        </a>
+        <a href="/services" className="cursor-pointer hover:text-blue-700">
           Services
-        </Link>
-        <Link to="/contact" className="cursor-pointer hover:text-blue-700">
+        </a>
+        <a href="/contact" className="cursor-pointer hover:text-blue-700">
           Contact Us
-        </Link>
+        </a>
       </nav>
 
       <Button variant="primary">

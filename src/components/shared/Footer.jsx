@@ -102,27 +102,28 @@ export default function Footer() {
                 <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    <Link to="/about"
-                    onClick={() => window.scrollTo(0, 0)} 
-                     className="hover:text-gray-300">About</Link>
+                    <a href="/about"
+                     className="hover:text-gray-300">About</a>
                 </li>
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    <Link to="/services" 
-                    onClick={() => window.scrollTo(0, 0)} 
-                    className="hover:text-gray-300">Services</Link>
+                    <a href="/services" 
+                    
+                    className="hover:text-gray-300">Services</a>
                 </li>
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
                     <Link to="/faq"
                      className="hover:text-gray-300">FAQ</Link>
                 </li>
+
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    <Link to="/contact" 
-                    onClick={() => window.scrollTo(0, 0)} 
-                    className="hover:text-gray-300">Contact</Link>
+                    <a href="/contact"
+                    className="hover:text-gray-300">Contact</a>
                 </li>
+
+
                 </ul>
             </div>
 
