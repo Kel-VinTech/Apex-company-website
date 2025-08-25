@@ -13,7 +13,7 @@ import contactImg from "../../src/assets/image/contact_1.jpg"
 export default function Contact() {
   return (
     <LandingLayout>
-      <section className="bg-slate-100">
+      <section className="bg-slate-100 no-underline focus:outline-none">
         <div
          className="w-full h-[30vh] flex items-center  justify-center
              bg-cover bg-center bg-black/60 bg-blend-multiply"
