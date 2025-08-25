@@ -32,7 +32,7 @@ export default function Contact() {
                 <div className="items-start justify-start">
                   {/* text */}
                   <div className="flex flex-col gap-2 h-64 md:gap-6 md:h-80 lg:h-96">
-                    <h1 className="font-bold text-base md:text-3xl">Contact Information</h1>
+                    <h1 className="font-bold text-orange-600 text-base md:text-3xl">Contact Information</h1>
                     <p className="font-normal">
                       At Apex Consulting Agency, we are more than just recruiters — 
                       we are your partners in building stronger businesses. 

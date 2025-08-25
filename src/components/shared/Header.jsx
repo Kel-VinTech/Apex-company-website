@@ -11,13 +11,13 @@ export default function Header() {
     <header className="fixed z-50 top-0 left-0 w-full shadow-md">
     <div className="flex justify-between items-center py-2 md:py-4 px-6 
     md:px-20 lg:px-32 bg-white">
-      <Link className="block no-underline focus:outline-none" to="/">
+      <a className="block no-underline focus:outline-none" href="/">
         <img
           src={companyLogo}
           alt="Apex Consulting Logo"
           className="h-12 w-auto md:w-auto cursor-pointer"
         />
-      </Link>
+      </a>
 
       <nav className="hidden md:flex space-x-4 lg:space-x-32">
         <a href="/" className="hover:text-blue-700">
