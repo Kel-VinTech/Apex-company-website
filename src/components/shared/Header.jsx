@@ -19,7 +19,7 @@ export default function Header() {
         />
       </a>
 
-      <nav className="hidden md:flex space-x-4 lg:space-x-32">
+      <nav className="hidden lg:flex space-x-4 lg:space-x-32">
         <a href="/" className="hover:text-blue-700">
           Home
         </a>
