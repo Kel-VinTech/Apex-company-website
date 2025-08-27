@@ -93,7 +93,7 @@ export default function About() {
 
 
         {/* second content */}
-        <div className="bg-slate-100">
+        <div className="bg-slate-100 ">
           <div className="py-10 md:py-20 px-6 md:px-20 lg:px-32">
 
             <h2 className="font-bold py-5 text-sm text-orange-600">OUR SERVICES</h2>
@@ -116,9 +116,9 @@ export default function About() {
                   <div className="text-black flex flex-col justify-between 
                   md:justify-around h:60 gap-5">
 
-                    <div className="flex flex-row gap-3 mb-3">
+                    <div className="flex items-start flex-row gap-3 mb-3">
                       <span>
-                        <SiFurrynetwork className="font-bold text-orange-600" />
+                        <SiFurrynetwork className="font-bold mt-1 text-orange-600" />
                       </span>
                       <span className="flex flex-col gap-2">
                         <h3 className="text-sm lg:text-base font-bold">Talent Acquisition</h3>
@@ -132,7 +132,7 @@ export default function About() {
                      <div className="flex flex-row
                       gap-3 mb-3">
                       <span>
-                        <BsFlagFill className="font-bold text-orange-600" />
+                        <BsFlagFill className="font-bold mt-1 text-orange-600" />
 
                       </span>
                       <span className="flex flex-col gap-2">
@@ -146,7 +146,7 @@ export default function About() {
 
                      <div className="flex flex-row gap-3 mb-3">
                       <span>
-                        <BiSolidDoorOpen className="text-orange-600"/>
+                        <BiSolidDoorOpen className="mt-1 text-orange-600"/>
 
                       </span>
                       <span className="flex flex-col gap-2">
@@ -211,13 +211,14 @@ export default function About() {
         
 
         {/* third content */}
-          <div className="bg-white py-10 md:py-20 px-6 
+
+          <div className="bg-white py-15 md:py-30 px-6 
             md:px-20 lg:px-32">
               {/* container */}
               <div className="grid md:grid-cols-3 gap-10">
                 {/* first div: smaller width */}
                 <div className="col-span-1 bg-cover bg-center
-                rounded-2xl h-[300px] md:min-h-[600px]" style={{
+                rounded-2xl h-[300px] md:min-h-[660px] lg:min-h-[600px]" style={{
                     backgroundImage: `url(${serviceImage})`,
                     }}>
                 </div>
@@ -241,30 +242,29 @@ export default function About() {
                     </div>
                     {/* second item */}
 
-                    {/* second item */}
-     <div className="grid md:grid-cols-2 gap-4 ">
-    <div className="bg-blue-100 rounded-xl flex items-center justify-center">1</div>
-    <div className="bg-blue-100 rounded-xl flex items-center justify-center">2</div>
-    <div className="bg-blue-100 rounded-xl flex items-center justify-center">3</div>
-    <div className="bg-blue-100 rounded-xl flex items-center justify-center">4</div>
-  </div>
-
+                                {/* second item */}
+                      <div className="grid md:grid-cols-2 gap-4 ">
+                            <div className="bg-blue-100 min-h-[200px] lg:min-h-[210px]
+                            rounded-xl flex
+                             items-center justify-center">1</div>
+                            <div className="bg-blue-100 rounded-xl flex min-h-[200px] lg:min-h-[210px]
+                            items-center justify-center">2</div>
+                            <div className="bg-blue-100 rounded-xl min-h-[200px] lg:min-h-[210px]
+                             flex items-center justify-center">3</div>
+                            <div className="bg-blue-100 rounded-xl min-h-[200px] lg:min-h-[210px]
+                            flex items-center justify-center">4</div>
+                      </div>
+                  </div>
 
                   </div>
 
-                </div>
               </div>
 
 
 
           </div>
 
-          
-
-
-
       </section>
-
        
     </LandingLayout>
   );
