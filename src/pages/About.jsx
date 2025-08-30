@@ -1,13 +1,19 @@
 // src/pages/About.jsx
 import LandingLayout from "../components/layouts/LandingLayout";
 import Button from "../../src/components/elements/Button";
-import serviceImage from "../../src/assets/image/bg_contact.jpg"
 
 import { BsFlagFill } from "react-icons/bs";
 import { SiFurrynetwork } from "react-icons/si";
 import { BiSolidDoorOpen } from "react-icons/bi";
 import { TiTick } from "react-icons/ti";
 
+
+import lady1 from "../../src/assets/image/lady1.webp"
+import standing from "../../src/assets/image/ladyred.webp"
+import gathering from "../../src/assets/image/gathering.webp"
+import interview from "../../src/assets/image/standinglady.webp"
+import deskman from "../../src/assets/image/desk_man.webp"
+import womentogether from "../../src/assets/image/business_women.webp"
 
 
 
@@ -34,28 +40,29 @@ export default function About() {
             
             {/* LEFT: Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-1">
-              <div className="bg-cover bg-center rounded-2xl row-span-3 min-h-[400px] md:min-h-[500px]"
+              <div className="bg-cover bg-center rounded-2xl row-span-3 min-h-[450px] md:min-h-[500px]"
                   style={{
-                    backgroundImage: `url(${serviceImage})`,
+                    backgroundImage: `url(${lady1})`,
                     }}>
               </div>
 
               <div className="bg-cover bg-center rounded-2xl md:row-span-2 min-h-[300px] md:min-h-[350px]"
                     style={{
-                    backgroundImage: `url(${serviceImage})`,
+                    backgroundImage: `url(${womentogether})`,
                     }}>
               </div>
 
-              <div className="bg-cover bg-center rounded-2xl min-h-[200px]"
+              <div className="bg-cover bg-center rounded-2xl min-h-[200px] 
+                md:min-h-[220px]"
                   style={{
-                        backgroundImage: `url(${serviceImage})`,
+                        backgroundImage: `url(${standing})`,
                         }}>
               </div>
 
               <div className="bg-blue-900 flex px-8 flex-col
                items-start justify-center gap-3 rounded-2xl min-h-[200px]">
-                    <h1 className="text-white font-bold">15 years experinces</h1>
-                    <p className="text-white font-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, voluptatem?</p>
+                    <h1 className="text-white font-bold">OUR MISSION</h1>
+                    <p className="text-white font-normal">To positively reshape the world of customer experience in every Nigerian’s mind. </p>
               </div>
             </div>
 
@@ -65,10 +72,11 @@ export default function About() {
               <h1 className="font-bold text-lg md:text-3xl text-gray-700">
                 At Apex Consulting Agency, we are more than just recruiters 
               </h1>
-              <p className="text-sm md:text-base text-gray-700">
-                With over 15 years of experience, we specialize in connecting top-tier talent with leading companies across industries. 
+              <p className="text-base md:text-lg text-gray-700">
+                With over 5 years of experience, we specialize in connecting top-tier 
+                talent with leading companies across industries in Nigeria. 
               </p>
-              <p className="text-sm md:text-base text-gray-700">
+              <p className="text-base md:text-lg text-gray-700">
                 We go beyond recruitment—helping you strengthen your workforce 
                 and achieve your company’s vision.
               </p>
@@ -76,10 +84,10 @@ export default function About() {
               </Button>
 
               <div
-                  className="w-full h-[30vh] rounded-lg
-                      bg-cover bg-center "
+                  className="w-full h-[42vh] rounded-lg
+                      bg-cover bg-center"
                     style={{
-                    backgroundImage: `url(${serviceImage})`,
+                    backgroundImage: `url(${gathering})`,
                     }}>
                 </div>
             </div>
@@ -105,10 +113,8 @@ export default function About() {
                 min-h-[350px] md:min-h-[500px] 
                 md:col-span-2 gap-5 text-white justify-between">
 
-                <h1 className="text-blue-900 md:text-3xl font-bold">Experinced recruiters speacilizes in finding
-                  the right executive talent
-
-                </h1>
+                <h1 className="text-blue-900 md:text-3xl font-bold">
+                      Experienced recruiters specialized in finding the right executive talent.  </h1>
 
                 <div className="flex flex-col justify-between md:flex-row gap-10">
 
@@ -121,10 +127,10 @@ export default function About() {
                         <SiFurrynetwork className="font-bold mt-1 text-orange-600" />
                       </span>
                       <span className="flex flex-col gap-2">
-                        <h3 className="text-sm lg:text-base font-bold">Talent Acquisition</h3>
+                        <h3 className="text-sm lg:text-base font-bold">Recruitment & Onboarding</h3>
             
-                        <p className="text-xs lg:text-sm">We build tailored web solutions 
-                          that align with your business 
+                        <p className="text-sm lg:text-base">We help you find and integrate 
+                          the right talent seamlessly into your team.
                       </p>
                       </span>
                     </div>
@@ -136,10 +142,10 @@ export default function About() {
 
                       </span>
                       <span className="flex flex-col gap-2">
-                        <h3 className="text-sm lg:text-base font-bold">Talent Acquisition</h3>
+                        <h3 className="text-sm lg:text-base font-bold">Policy & Proposal Writing </h3>
             
-                        <p className="text-xs lg:text-sm">We build tailored web solutions 
-                          that align with your business  
+                        <p className="text-sm lg:text-base">Clear, professional
+                           documentation that strengthens workplace structure. 
                       </p>
                       </span>
                     </div>
@@ -150,10 +156,10 @@ export default function About() {
 
                       </span>
                       <span className="flex flex-col gap-2">
-                        <h3 className="text-sm lg:text-base  font-bold">Talent Acquisition</h3>
+                        <h3 className="text-sm lg:text-base  font-bold">Customer Service Training</h3>
             
-                        <p className="text-xs lg:text-sm">We build tailored web solutions 
-                          that align with your business 
+                        <p className="text-sm lg:text-base">We equip your team to deliver
+                           exceptional customer experiences at every level. 
                       </p>
                       </span>
                     </div>
@@ -163,17 +169,15 @@ export default function About() {
                   <div className="h-70 md:h-96  md:w-130 lg:w-130 rounded-lg p-4 bg-blue-900 text-white">
                       <div className="flex gap-2 md:py-3 flex-col justify-around h-full">
                         
-                          <p className="text-sm">Our design team crafts 
-                            intuitive and engaging interfaces that enhance 
-                            user satisfaction and drive conversions.
-                            Our design team crafts 
-                            intuitive and engaging interfaces that enhance 
-                            user satisfaction and drive conversions.
+                          <p className="text-sm">Our expert recruitment services and well-tailored training programs empower
+                             individuals and organisations to reach their full potential, 
+                             drive growth, innovativeness and 
+                             success while creating a customer-centric world.
                             </p>
 
-                            <p className="text-sm">Our design team crafts 
-                            intuitive and engaging interfaces that enhance 
-                            user satisfaction and drive conversions.</p>
+                            <p className="text-sm">At Apex Consulting,
+                                  we bridge the gap
+                                 between talents and opportunities.</p>
 
                            <span className="flex flex-row items-center gap-1">
                             <TiTick className="text-white" />
@@ -195,7 +199,7 @@ export default function About() {
               <div className="min-h-[350px] md:min-h-[500px]
                w-full h-[30vh] rounded-lg bg-cover bg-center "
                 style={{
-                backgroundImage: `url(${serviceImage})`,
+                backgroundImage: `url(${deskman})`,
                 }}>
               </div>
             </div>
@@ -217,9 +221,9 @@ export default function About() {
               {/* container */}
               <div className="grid md:grid-cols-3 gap-10">
                 {/* first div: smaller width */}
-                <div className="col-span-1 bg-cover bg-center
+                <div className="col-span-1 bg-cover bg-center md:w-[250px] lg:w-full
                 rounded-2xl h-[300px] md:min-h-[660px] lg:min-h-[600px]" style={{
-                    backgroundImage: `url(${serviceImage})`,
+                    backgroundImage: `url(${interview})`,
                     }}>
                 </div>
 
@@ -230,29 +234,54 @@ export default function About() {
                   <div className="flex flex-col gap-6">
                     {/* first item */}
                     <div className="flex flex-col gap-4">
-                        <h2 className="font-bold text-sm text-orange-600">OUR SERVICES</h2>
-                        <h1 className="text-blue-900 md:text-3xl font-bold">Experinced recruiters speacilizes in finding
-                          the right executive talent
+                        <h2 className="font-bold text-sm text-orange-600">OUR STRUCTURE</h2>
+                        <h1 className="text-blue-900 md:text-3xl font-bold">
+                          Enhancing Business Performance Through Customer Care Excellence.
                         </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa voluptate 
-                          numquam debitis eum eligendi similique velit alias dolorum assumenda.
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa voluptate 
-                          numquam debitis.</p>
+                        <p>Apex Customer Service training has over time 
+                          reshaped the overall view of customer service/ service delivery.
+                           Since 2017 we have been servicing the critical 
+                          needs of sectors in companies where customer service care is paramount.</p>
 
                     </div>
                     {/* second item */}
 
                                 {/* second item */}
-                      <div className="grid md:grid-cols-2 gap-4 ">
-                            <div className="bg-blue-100 min-h-[200px] lg:min-h-[210px]
-                            rounded-xl flex
-                             items-center justify-center">1</div>
-                            <div className="bg-blue-100 rounded-xl flex min-h-[200px] lg:min-h-[210px]
-                            items-center justify-center">2</div>
-                            <div className="bg-blue-100 rounded-xl min-h-[200px] lg:min-h-[210px]
-                             flex items-center justify-center">3</div>
-                            <div className="bg-blue-100 rounded-xl min-h-[200px] lg:min-h-[210px]
-                            flex items-center justify-center">4</div>
+                      <div className="grid md:grid-cols-2 gap-4 lg:text-base ">
+                            <div className="bg-gray-100 min-h-[200px] lg:min-h-[210px]
+                            rounded-xl flex hover:bg-blue-900 hover:text-white
+                             items-center justify-center px-4 lg:px-10 shadow-md ">
+                                <p className="md:text-sm lg:text-base  font-medium"> We train our staff on customer service/service delivery, 
+                                  team spirit, communication, organizational, flexibility, and adaptability skills
+                                 .</p>
+                             </div>
+
+                            <div className="bg-gray-100 rounded-xl flex min-h-[200px] lg:min-h-[210px]
+                            items-center justify-center px-4 lg:px-10 hover:bg-blue-900 hover:text-white
+                            shadow-md">
+                              <p className="md:text-sm lg:text-base font-medium">Staff are hired through a detailed recruitment 
+                                process to ascertain hiring the right skills for the job.</p>
+                            </div>
+
+                            <div className="bg-gray-100 rounded-xl min-h-[200px] lg:min-h-[210px]
+                             flex items-center justify-center lg:px-10 px-4 hover:bg-blue-900 hover:text-white
+                              shadow-md">
+                                <p className="md:text-sm lg:text-base font-medium">
+                                  Subsequent training will be provided to 
+                                  continuously sharpen and improve staff customer service skills.
+                                </p>
+                             </div>
+
+
+                            <div className="bg-gray-100 rounded-xl min-h-[200px] lg:min-h-[210px]
+                            flex items-center justify-center lg:px-10 px-4 hover:bg-blue-900 hover:text-white
+                            shadow-md">
+
+                               <p className="md:text-sm lg:text-base font-medium">
+                                Our team is trained to deliver excellent customer service, 
+                                ensuring a positive experience for both clients and candidates.
+                               </p>
+                            </div>
                       </div>
                   </div>
 

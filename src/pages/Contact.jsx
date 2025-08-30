@@ -5,9 +5,9 @@ import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { GoClockFill } from "react-icons/go";
 
-import serviceImage from "../../src/assets/image/bg_contact.jpg"
-import mapImg from "../../src/assets/image/map_2.png"
-import contactImg from "../../src/assets/image/contact_1.jpg"
+import serviceImage from "../../src/assets/image/services-1920.webp"
+import mapImg from "../../src/assets/image/map_2.webp"
+import contactImg from "../../src/assets/image/group-together.webp"
 
 
 export default function Contact() {
@@ -31,7 +31,7 @@ export default function Contact() {
 
                 <div className="items-start justify-start">
                   {/* text */}
-                  <div className="flex flex-col gap-2 h-64 md:gap-6 md:h-80 lg:h-96">
+                  <div className="flex flex-col gap-5 h-64 md:gap-6 md:h-80 lg:h-96">
                     <h1 className="font-bold text-orange-600 text-base md:text-3xl">Contact Information</h1>
                     <p className="font-normal">
                       At Apex Consulting Agency, we are more than just recruiters — 
