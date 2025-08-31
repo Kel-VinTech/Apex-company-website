@@ -19,17 +19,17 @@ export default function Header() {
         />
       </a>
 
-      <nav className="hidden lg:flex space-x-4 lg:space-x-32">
-        <a href="/" className="hover:text-blue-700">
+      <nav className="hidden font-normal lg:flex space-x-4 lg:space-x-32">
+        <a href="/" className=" hover:text-blue-700 hover:font-medium">
           Home
         </a>
-        <a href="/about" className="hover:text-blue-700">
+        <a href="/about" className="hover:text-blue-700 hover:font-medium ">
           About Us
         </a>
-        <a href="/services" className="cursor-pointer hover:text-blue-700">
+        <a href="/services" className="cursor-pointer hover:font-medium hover:text-blue-700">
           Services
         </a>
-        <a href="/contact" className="cursor-pointer hover:text-blue-700">
+        <a href="/contact" className="cursor-pointer hover:font-medium hover:text-blue-700">
           Contact Us
         </a>
       </nav>

@@ -6,7 +6,7 @@ export default function Services() {
       <section className="">
 
         <div
-         className="w-full h-[30vh] flex items-center  justify-center
+         className="w-full h-[30vh] md:h-[40vh] flex items-center  justify-center
              bg-cover bg-center bg-black/60 bg-blend-multiply"
             style={{
             backgroundImage:"url(src/assets/image/authentic-small-youthful-marketing-agency.jpg)",
@@ -17,7 +17,7 @@ export default function Services() {
 
 
 
-         <div className=" flex flex-col items-start justify-center py-20 px-6 
+         <div className=" flex flex-col items-start justify-center py-28 px-6 
             md:px-20 lg:px-32">
 
              <h1 className="text-3xl font-bold mb-4 text-gray-800">Our Services</h1>

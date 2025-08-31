@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { GoClockFill } from "react-icons/go";
 
-import serviceImage from "../../src/assets/image/services-1920.webp"
+import serviceImage from "../../src/assets/image/hotline.webp"
 import mapImg from "../../src/assets/image/map_2.webp"
 import contactImg from "../../src/assets/image/group-together.webp"
 
@@ -15,8 +15,8 @@ export default function Contact() {
     <LandingLayout>
       <section className="bg-slate-100 no-underline focus:outline-none">
         <div
-         className="w-full h-[30vh] flex items-center  justify-center
-             bg-cover bg-center bg-black/60 bg-blend-multiply"
+         className="w-full h-[30vh] md:h-[40vh] flex items-center  justify-center
+             bg-cover bg-center bg-black/50 bg-blend-multiply"
             style={{
             backgroundImage: `url(${serviceImage})`,
             }}>
@@ -24,7 +24,7 @@ export default function Contact() {
               <h1 className="mt-20 text-2xl md:text-3xl text-white font-bold">Our Contacts</h1>
         </div>
 
-        <div className="grid gap-10 py-20 px-6 
+        <div className="grid gap-10 py-28 px-6 
             md:px-20 lg:px-32">
             <div className="grid gap-6 text-sm md:text-base grid-cols-1
              md:grid-cols-2 lg:grid-cols-2">

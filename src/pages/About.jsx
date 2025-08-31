@@ -14,6 +14,8 @@ import gathering from "../../src/assets/image/gathering.webp"
 import interview from "../../src/assets/image/standinglady.webp"
 import deskman from "../../src/assets/image/desk_man.webp"
 import womentogether from "../../src/assets/image/business_women.webp"
+import aboutImage from "../../src/assets/image/disccsuion.jpg"
+
 
 
 
@@ -22,16 +24,16 @@ export default function About() {
     <LandingLayout>
       <section className="">
           <div
-            className="w-full h-[30vh] flex items-center  justify-center
+            className="w-full h-[30vh] md:h-[40vh] flex items-center justify-center
              bg-cover bg-center bg-black/60 bg-blend-multiply"
             style={{
-            backgroundImage:"url(src/assets/image/authentic-small-youthful-marketing-agency.jpg)",
+            backgroundImage: `url(${aboutImage})`,
             }}>
       
               <h1 className="mt-20 text-2xl md:text-3xl text-white font-bold">About Us</h1>
         </div>
 
-        <div className="py-20 px-6 md:px-20 lg:px-32">
+        <div className="py-28 px-6 md:px-20 lg:px-32">
 
 
             {/* first content */}
@@ -73,8 +75,9 @@ export default function About() {
                 At Apex Consulting Agency, we are more than just recruiters 
               </h1>
               <p className="text-base md:text-lg text-gray-700">
-                With over 5 years of experience, we specialize in connecting top-tier 
-                talent with leading companies across industries in Nigeria. 
+                Apex Consulting Agency is a full-service 
+                recruitment and HR consulting firm based in Benin City, Nigeria. We help businesses
+                 build exceptional teams through recruitment, onboarding, and strategic HR support.
               </p>
               <p className="text-base md:text-lg text-gray-700">
                 We go beyond recruitment—helping you strengthen your workforce 
@@ -181,12 +184,12 @@ export default function About() {
 
                            <span className="flex flex-row items-center gap-1">
                             <TiTick className="text-white" />
-                            <h2 className="text-sm">Best Team Work</h2>
+                            <h2 className="text-sm">Staff Retention</h2>
                            </span>
 
                            <span className="flex flex-row items-center gap-1">
                             <TiTick className="text-white" />
-                            <h2 className="text-sm">Best Team Work</h2>
+                            <h2 className="text-sm">Staff Longevity</h2>
                            </span>
                       </div>
                   </div>
