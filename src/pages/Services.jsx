@@ -2,15 +2,16 @@ import LandingLayout from "../components/layouts/LandingLayout";
 import Button from "../../src/components/elements/Button";
 
 
-import agreement from "../../src/assets/image/bg_contact2.jpg"
+import agreement from "../../src/assets/image/bg_contact.webp"
 import workingGirl from "../../src/assets/image/working_girl.webp"
 import workingLady from "../../src/assets/image/recruitment.webp"
 import teamTalk from "../../src/assets/image/teamwork-creat.webp"
 import businessTalk from "../../src/assets/image/office-hall.webp"
 import heroImage from "../../src/assets/image/agency.webp"
+import companyGrowth from "../../src/assets/image/optimizing-code.webp"
 
-
-
+import { IoBarChartSharp } from "react-icons/io5";
+import { MdModelTraining } from "react-icons/md";
 
 
 
@@ -136,7 +137,7 @@ export default function Services() {
             <div className="flex flex-col items-center justify-center gap-5">
                   <h1 className="text-center text-3xl font-bold items-center
                    text-gray-800">Your Apex Consulting Journey</h1>
-                   <p className="text-center"> Tailored recruitment and training solutions for businesses and talents.</p>
+                   <p className="text-center text-lg"> Tailored recruitment and training solutions for businesses and talents.</p>
               </div>
 
 
@@ -146,15 +147,16 @@ export default function Services() {
 
             <div className="grid pb-70 pt-10 md:pt-20 md:pb-20 grid-cols-1 lg:grid-cols-2 gap-6 auto-rows-[200px]">
                   {/* Box 1 - Tall left with 2 equal parts */}
-                  <div className="border border-blue-900 rounded-xl overflow-hidden row-span-2 flex flex-col divide-y divide-gray-200">
-                    <div className="p-6 gap-3 flex-1 md:gap-5 flex flex-col">
+                  <div className="border border-blue-900 rounded-xl overflow-hidden row-span-2 flex flex-col
+                   divide-y divide-gray-200">
+                    <div className="p-6 gap-3 flex-1 md:gap-3 flex flex-col">
                       <h3 className="font-bold">Recruitment</h3>
                       <h2 className="text-xl md:text-3xl font-bold">Comprehensive Talent Acquisition Services </h2>
                       <p className="text-gray-600 mt-2">
                           Matching skilled applicants with the right roles 
                           through extensive interviews and assessments.                        </p>
                     </div>
-                    <div className="flex-1 p-6 w-full h-full
+                    <div className="flex- p-6 w-full h-full
                         bg-cover bg-center" 
                         style={{
                           backgroundImage: `url(${workingLady})`,
@@ -176,17 +178,17 @@ export default function Services() {
                   <div className="border border-blue-900 rounded-xl 
                   overflow-hidden row-span-2 flex flex-col divide-y divide-gray-200">
 
-                    <div className="flex flex-col p-6 flex-1 gap-3 md:gap-5">
+                    <div className="flex flex-col p-6 flex-1 gap-3 md:gap-3">
                       <h3 className="font-bold">Growth</h3>
                       <h2 className="text-lg md:text-3xl font-bold"> Company Profile & Financial Analysis</h2>
                       <p className="text-gray-600">
                         Creating compelling company profiles and delivering in-depth financial analysis for smarter decisions.
                       </p>
                     </div>
-                    <div className="flex-1 p-6 w-full h-full
+                    <div className="flex-2 p-6 w-full h-full
                         bg-cover bg-cente" 
                         style={{
-                          backgroundImage: `url(${agreement})`,
+                          backgroundImage: `url(${companyGrowth})`,
                         }}>
                     </div> 
           
@@ -199,7 +201,7 @@ export default function Services() {
 
                       <div className="flex flex-col gap-3 border
                        border-blue-900 rounded-xl p-6">
-                        <span>icon</span>
+                        <span><MdModelTraining size={25} /></span>
                         <h2 className="text-lg font-bold">Customer Service Training</h2>
                           <p className="text-gray-600 mt-2">
                             Equipping staff with practical skills to deliver 
@@ -209,7 +211,7 @@ export default function Services() {
                           
                         <div className="flex flex-col gap-3 border
                          border-blue-900 rounded-xl p-6">
-                          <span>icon</span>
+                          <span><IoBarChartSharp size={25} /></span>
                           <h2 className="text-lg font-bold">Performance & Company Appraisals</h2>
                             <p className="text-gray-600">
                               Implementing employee review strategies and business
