@@ -14,9 +14,7 @@ import gathering from "../../src/assets/image/gathering.webp"
 import interview from "../../src/assets/image/standinglady.webp"
 import deskman from "../../src/assets/image/desk_man.webp"
 import womentogether from "../../src/assets/image/business_women.webp"
-import aboutImage from "../../src/assets/image/disccsuion.jpg"
-
-
+import aboutImage from "../../src/assets/image/disccsuion.webp"
 
 
 export default function About() {
