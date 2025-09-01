@@ -42,7 +42,7 @@ export default function Services() {
                   <div className="flex flex-col items-center justify-center gap-2">
                     <div
                       className="w-full h-[30vh] mb-6 md:h-[40vh] flex items-center  justify-center
-                      bg-cover bg-center bg-black/60 bg-blend-multiply"
+                      bg-cover bg-center bg-blend-multiply"
                       style={{
                       backgroundImage:"url(src/assets/image/authentic-small-youthful-marketing-agency.jpg)",
                       }}>
@@ -60,7 +60,7 @@ export default function Services() {
                   <div className="flex flex-col items-center justify-center gap-2">
                     <div
                       className="w-full h-[30vh] mb-6 md:h-[40vh] flex items-center  justify-center
-                      bg-cover bg-center bg-black/60 bg-blend-multiply"
+                      bg-cover bg-center"
                       style={{
                       backgroundImage:"url(src/assets/image/authentic-small-youthful-marketing-agency.jpg)",
                       }}>
@@ -78,7 +78,7 @@ export default function Services() {
                   <div className="flex flex-col items-center justify-center gap-2">
                     <div
                       className="w-full h-[30vh] mb-6 md:h-[40vh] flex items-center  justify-center
-                      bg-cover bg-center bg-black/60 bg-blend-multiply"
+                      bg-cover bg-center"
                       style={{
                       backgroundImage:"url(src/assets/image/authentic-small-youthful-marketing-agency.jpg)",
                       }}>
@@ -105,10 +105,10 @@ export default function Services() {
             }}>
               
               <div className="flex flex-col items-center justify-center gap-2">
-                    <h1 className="text-xl md:text-2xl text-white font-bold">OUR TALENT IS FINDING YOURS</h1>
+                    <h1 className="text-xs md:text-2xl text-white font-bold">OUR TALENT IS FINDING YOURS</h1>
                     <span className="flex flex-row md:flex-row items-center justify-center gap-4 md:gap-6 mt-4">
-                      <Button variant="secondary">Find me a Candididte</Button>
-                      <Button variant="secondary">Find me a Job</Button>
+                    <Button variant="services" className="text-3xl">Find a Candididte</Button>
+                      <Button variant="services">Find a Job</Button>
                     </span>
 
               </div>
