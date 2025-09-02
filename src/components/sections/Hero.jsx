@@ -1,30 +1,79 @@
 // src/components/sections/Hero.jsx
 import Button from "../elements/Button";
+import HeroTextSlider from "../../components/elements/HeroTextSlider";
+
+
+import lady1 from "../../assets/image/lady1.webp"
+
+// import interview from "../../src/assets/image/standinglady.webp"
+import gathering from "../../assets/image/gathering.webp"
+
 
 export default function Hero() {
   return (
-    <section
-      className="min-h-screen flex items-center bg-cover bg-center overflow-hidden
-        bg-black/60 bg-blend-multiply"
-      style={{
-        backgroundImage:
-          "url(src/assets/image/authentic-small-youthful-marketing-agency.jpg)",
-      }}
-    >
-      <div className=" flex flex-col items-start justify-center py-4 px-6 
-        md:px-20 lg:px-32">
-        <h3 className="text-xl font-bold mb-2 text-gray-600">Welcome to Apex Recruitment Agency</h3>
-        <h1 className="text-4xl font-bold mb-4 text-gray-800">
-          Connecting Talents,
-          Building Careers
-        </h1>
-        <p className="text-lg text-gray-600 mb-6 max-w-xl">
-          We help you build modern and fast websites using React and Tailwind CSS.
-        </p>
-        <Button variant= "secondary">
-          Get Started
-        </Button>
+    <section>
+      
+
+      <div className="relative py-30 px-6 
+        md:px-20 lg:px-32 w-full">
+  {/* Hero Content */}
+  <div className="text-center max-w-3xl mx-auto mb-12">
+        <HeroTextSlider />
+
+  </div>
+
+  {/* Grid Layout */}
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[250px]">
+  {/* Box 1 */}
+  <div className="rounded-xl bg-cover bg-center"
+        style={{
+        backgroundImage: `url(${lady1})`,
+        }}>
+  </div>
+
+  {/* Box 2 */}
+  <div className="rounded-xl bg-cover bg-center"
+        style={{
+        backgroundImage: `url(${lady1})`,
+        }}>
+  </div>
+
+  {/* Box 4 (tall block) */}
+  <div className="rounded-xl p-4 md:row-span-2 bg-cover bg-center"
+        style={{
+        backgroundImage: `url(${lady1})`,
+        }}></div>
+
+  {/* Box 5 */}
+  <div className="rounded-xl p-4 order-1 md:order-none bg-cover bg-center"
+        style={{
+        backgroundImage: `url(${lady1})`,
+        }}>
+  </div>
+
+  {/* Box 6 — sits under Box 5 on md */}
+  <div className="rounded-xl p-4 order-2 md:order-none lg:order-2 bg-cover bg-center"
+        style={{
+        backgroundImage: `url(${lady1})`,
+        }}>
+  </div>
+
+  {/* Box 3 (wide on md, normal on lg) */}
+  <div className="rounded-xl p-4 md:col-span-2 lg:col-span-2 bg-cover bg-center"
+        style={{
+        backgroundImage: `url(${gathering})`,
+        }}></div>
+  
+</div>
+
+
+
+
+
       </div>
+
+
+
     </section>
   );
 }

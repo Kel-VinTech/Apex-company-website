@@ -31,7 +31,7 @@ export default function About() {
               <h1 className="mt-20 text-2xl md:text-3xl text-white font-bold">About Us</h1>
         </div>
 
-        <div className="py-28 px-6 md:px-20 lg:px-32">
+        <div className="py-10 md:py-28 px-6 md:px-20 lg:px-32">
 
 
             {/* first content */}
@@ -81,7 +81,7 @@ export default function About() {
                 We go beyond recruitment—helping you strengthen your workforce 
                 and achieve your company’s vision.
               </p>
-              <Button variant="secondary">Contact Us
+              <Button variant="secondary" href="https://wa.link/hvtcik">Contact Us
               </Button>
 
               <div
@@ -103,7 +103,7 @@ export default function About() {
 
         {/* second content */}
         <div className="bg-slate-100 ">
-          <div className="py-10 md:py-20 px-6 md:px-20 lg:px-32">
+          <div className="py-5 md:py-20 px-6 md:px-20 lg:px-32">
 
             <h2 className="font-bold py-5 text-sm text-orange-600">OUR SERVICES</h2>
             
@@ -241,7 +241,7 @@ export default function About() {
                         </h1>
                         <p>Apex Customer Service training has over time 
                           reshaped the overall view of customer service/ service delivery.
-                           Since 2017 we have been servicing the critical 
+                           Since 2020 we have been servicing the critical 
                           needs of sectors in companies where customer service care is paramount.</p>
 
                     </div>

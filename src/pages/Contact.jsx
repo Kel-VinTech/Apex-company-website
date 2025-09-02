@@ -43,7 +43,7 @@ export default function Contact() {
                         and achieve your company’s vision.
                     </p>
 
-                      <Button className="items-center" variant="secondary">Contact Us</Button>
+                      <Button variant="secondary" href="https://wa.link/hvtcik">Contact Us</Button>
                   </div>
                 </div>
 
