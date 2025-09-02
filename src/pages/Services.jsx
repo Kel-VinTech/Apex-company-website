@@ -113,7 +113,7 @@ export default function Services() {
 
         <div
          className="w-full h-[20vh] md:h-[18vh] flex items-center justify-center
-             bg-cover bg-center bg-black/60 bg-blend-multiply mb-20" 
+             bg-cover bg-center bg-black/60 bg-blend-multiply" 
             style={{
               backgroundImage: `url(${agreement})`,
             }}>
@@ -130,13 +130,13 @@ export default function Services() {
 
        {/* last main content  */}
         
-        <div className="flex flex-col justify-center pb-15 px-6 
+        <div className="flex flex-col justify-center bg-slate-100 pb-15 px-6 
             md:px-20 lg:px-32">
             
             {/* heading content */}
             <div className="flex flex-col items-center justify-center gap-5">
                   <h1 className="text-center text-3xl font-bold items-center
-                   text-gray-800">Your Apex Consulting Journey</h1>
+                   text-gray-800 pt-20">Your Apex Consulting Journey</h1>
                    <p className="text-center text-lg"> Tailored recruitment and training solutions for businesses and talents.</p>
               </div>
 
