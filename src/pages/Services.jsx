@@ -165,10 +165,11 @@ export default function Services() {
                   </div>
 
                   {/* Box 2 - Top right */}
-                  <div className="border border-blue-900 rounded-xl p-5 gap-3 md:gap-4 flex flex-col">
+                  <div className="flex flex-col gap-3 border
+                         border-blue-900 rounded-xl p-5">
                     <h3 className="font-bold">Rebranding</h3>
                     <h2 className="text-lg md:text-3xl font-bold">Rebranding & Business Structuring</h2>
-                    <p className="text-gray-600 mt-2">
+                    <p className="text-gray-600">
                       Helping businesses redefine their identity while building 
                       solid structures that drive efficiency, growth, and long-term success.
                     </p>
