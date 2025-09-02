@@ -201,7 +201,7 @@ export default function Services() {
 
                       <div className="flex flex-col gap-3 border
                        border-blue-900 rounded-xl p-6">
-                        <span><MdModelTraining size={25} /></span>
+                        <span><MdModelTraining size={25} className="text-orange-600" /></span>
                         <h2 className="text-lg font-bold">Customer Service Training</h2>
                           <p className="text-gray-600 mt-2">
                             Equipping staff with practical skills to deliver 
@@ -211,7 +211,7 @@ export default function Services() {
                           
                         <div className="flex flex-col gap-3 border
                          border-blue-900 rounded-xl p-6">
-                          <span><IoBarChartSharp size={25} /></span>
+                          <span><IoBarChartSharp size={25} className="text-orange-600" /></span>
                           <h2 className="text-lg font-bold">Performance & Company Appraisals</h2>
                             <p className="text-gray-600">
                               Implementing employee review strategies and business
