@@ -32,13 +32,13 @@ export default function Services() {
 
 
                 {/* first main content */}
-         <div className=" flex flex-col justify-center pt-20 md:pt-28 pb-15 px-6 
+         <div className=" flex flex-col justify-center pt-10 md:pt-28 pb-7 md:pb-15 px-6 
             md:px-20 lg:px-32">
 
 
             {/* heading content */}
             <div className="flex flex-col items-center justify-center gap-5">
-                  <h1 className="text-center text-3xl font-bold mb-4 items-center
+                  <h1 className="text-center text-3xl md:text-4xl font-bold mb-4 items-center
                    text-gray-800">Your Future with Apex Consulting</h1>
 
                    <p className="text-gray-800 text-center text-base md:text-lg leading-relaxed max-w-2xl">

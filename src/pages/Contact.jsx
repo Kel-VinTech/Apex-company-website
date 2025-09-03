@@ -24,7 +24,7 @@ export default function Contact() {
               <h1 className="mt-20 text-2xl md:text-3xl text-white font-bold">Our Contacts</h1>
         </div>
 
-        <div className="grid gap-10 py-28 px-6 
+        <div className="grid gap-10 py-10 md:py-28 px-6 
             md:px-20 lg:px-32">
             <div className="grid gap-6 text-sm md:text-base grid-cols-1
              md:grid-cols-2 lg:grid-cols-2">
