@@ -121,7 +121,7 @@ export default function Services() {
               <div className="flex flex-col items-center justify-center gap-2">
                     <h1 className="text-sm md:text-2xl text-white font-bold">OUR TALENT IS FINDING YOURS</h1>
                     <span className="flex flex-row md:flex-row items-center justify-center gap-4 md:gap-6 mt-4">
-                    <Button variant="services" href="https://wa.link/jlmoev">Find a Candididate</Button>
+                    <Button variant="services" href="https://wa.link/jlmoev">Find an Employee</Button>
                       <Button variant="services" href="https://wa.link/xoqwwq">Find a Job</Button>
                     </span>
 

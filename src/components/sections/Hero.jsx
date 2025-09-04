@@ -4,8 +4,6 @@ import HeroTextSlider from "../../components/elements/HeroTextSlider";
 
 
 import lady1 from "../../assets/image/lady1.webp"
-
-// import interview from "../../src/assets/image/standinglady.webp"
 import gathering from "../../assets/image/gathering.webp"
 
 

@@ -121,13 +121,14 @@ const FAQ = () => {
   };
 
   return (
-    <div className="max-w-2xl px-6 lg:max-w-4xl mx-auto py-20">
-      <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
+    <div className="max-w-2xl px-6 lg:max-w-4xl mx-auto pt-10 pb-20">
+      <h2 className="text-xl md:text-3xl font-bold mb-10 text-center">
         Frequently Asked Questions
       </h2>
+
       <div className="space-y-4">
         {faqs.map((faq, index) => (
-          <div key={index} className="border rounded-lg p-4 shadow-sm">
+          <div key={index} className="border border-blue-900 rounded-lg p-6 shadow-sm">
             <button
               onClick={() => toggleFAQ(index)}
               className="w-full text-left font-medium flex justify-between items-center"
