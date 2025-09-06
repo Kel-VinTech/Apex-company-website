@@ -59,7 +59,7 @@ export default function Industry() {
 
                 {/* Apply Link */}
                 <a
-                  href="#"
+                  href="https://wa.link/hvtcik"
                   className="text-red-500 pt-4 font-medium hover:underline text-base"
                 >
                   Apply now
@@ -89,7 +89,7 @@ export default function Industry() {
 
                 {/* Apply Link */}
                 <a
-                  href="#"
+                  href="https://wa.link/hvtcik"
                   className="text-red-500 pt-4 font-medium hover:underline text-base"
                 >
                   Apply now
@@ -122,7 +122,7 @@ export default function Industry() {
 
                 {/* Apply Link */}
                 <a
-                  href="#"
+                  href="https://wa.link/hvtcik"
                   className="text-red-500 pt-4 font-medium hover:underline text-base"
                 >
                   Apply now
@@ -155,7 +155,7 @@ export default function Industry() {
 
                 {/* Apply Link */}
                 <a
-                  href="#"
+                  href="https://wa.link/hvtcik"
                   className="text-red-500 pt-4 font-medium hover:underline text-base"
                 >
                   Apply now

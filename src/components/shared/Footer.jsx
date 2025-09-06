@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+
+
 import { MdOutlineKeyboardArrowRight, MdEmail } from "react-icons/md";
 import { RiMapPin2Fill } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -113,8 +116,8 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-2">
                     <MdOutlineKeyboardArrowRight />
-                    <Link to="/faq"
-                     className="hover:text-gray-300">FAQ</Link>
+                    <HashLink smooth to="/#faq"
+                     className="hover:text-gray-300">FAQ</HashLink>
                 </li>
 
                 <li className="flex items-center gap-2">
