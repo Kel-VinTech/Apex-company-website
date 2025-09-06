@@ -12,7 +12,7 @@ export default function Hero() {
     <section>
       
 
-      <div className="relative py-30 px-6 
+      <div className="relative pt-30 pb-16 px-6 
         md:px-20 lg:px-32 w-full">
   {/* Hero Content */}
   <div className="text-center max-w-3xl mx-auto mb-12">
