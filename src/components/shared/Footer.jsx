@@ -25,6 +25,7 @@ export default function Footer() {
 
             {/* Phone */}
             <div className="flex items-center gap-2">
+                <IoLogoWhatsapp className="w-5 h-5" />
                 <IoCall className="w-5 h-5" />
                 <span className="font-bold">+234-9125-532-844</span>
             </div>

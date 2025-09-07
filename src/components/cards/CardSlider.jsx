@@ -36,7 +36,7 @@ export default function CardSlider() {
                 alt={card.title}
                 className="min-h-[300px] md:min-h-[400px]  bg-center bg-cover rounded-lg mb-5"
               />
-              <h2 className="text-xl md:text-2xl font-bold mb-1 mx-3 p3">{card.title}</h2>
+              <h2 className="text-xl md:text-2xl font-bold mb-1 mx-3 p3 text-blue-900">{card.title}</h2>
             </div>
           </SwiperSlide>
         ))}

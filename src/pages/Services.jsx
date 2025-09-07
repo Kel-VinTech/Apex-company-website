@@ -39,7 +39,7 @@ export default function Services() {
             {/* heading content */}
             <div className="flex flex-col items-center justify-center gap-5">
                   <h1 className="text-center text-3xl md:text-4xl font-bold mb-4 items-center
-                   text-gray-800">Your Future with Apex Consulting</h1>
+                   text-blue-900">Your Future with Apex Consulting</h1>
 
                    <p className="text-gray-800 text-center text-base md:text-lg leading-relaxed max-w-2xl">
                       At Apex Consulting, we specialize in connecting skilled candidates with leading employers. 
@@ -60,7 +60,7 @@ export default function Services() {
                        backgroundImage: `url(${workingGirl})`,
                       }}>
                   </div>
-                      <h1 className="md:mb-4 text-2xl md:text-3xl text-black font-bold">Why Choose Apex?</h1>
+                      <h1 className="md:mb-4 text-2xl md:text-3xl text-blue-900 font-bold">Why Choose Apex?</h1>
                       <p className="text-center text-base text-gray-800">We don’t just recruit — we help you build a stronger, more effective workplace culture.</p>
 
                   </div>
@@ -78,7 +78,7 @@ export default function Services() {
                         backgroundImage: `url(${teamTalk})`,
                       }}>
                   </div>
-                      <h1 className="md:mb-4 text-2xl md:text-3xl text-center text-black font-bold">Our Recruitment Process Simplified</h1>
+                      <h1 className="md:mb-4 text-2xl md:text-3xl text-center text-blue-900 font-bold">Our Recruitment Process Simplified</h1>
                       <p className="text-center text-base text-gray-800">Work with us to attract, train, and retain the best talent for your organization.</p>
 
                   </div>
@@ -97,7 +97,7 @@ export default function Services() {
 
                       }}>
                   </div>
-                      <h1 className="md:mb-4 text-2xl md:text-3xl text-black font-bold">Partner with Apex Consulting</h1>
+                      <h1 className="md:mb-4 text-2xl md:text-3xl font-bold text-blue-900">Partner with Apex Consulting</h1>
                       <p className="text-center text-base text-gray-800">Work with us to attract, train, and retain the best talent for your organization.</p>
 
                   </div>
@@ -136,7 +136,7 @@ export default function Services() {
             {/* heading content */}
             <div className="flex flex-col items-center justify-center gap-5">
                   <h1 className="text-center text-3xl font-bold items-center
-                   text-gray-800 pt-20">Your Apex Consulting Journey</h1>
+                   text-blue-900 pt-20">Your Apex Consulting Journey</h1>
                    <p className="text-center text-lg"> Tailored recruitment and training solutions for businesses and talents.</p>
               </div>
 
@@ -150,8 +150,8 @@ export default function Services() {
                   <div className="border border-blue-900 rounded-xl overflow-hidden row-span-2 flex flex-col
                    divide-y divide-gray-200">
                     <div className="p-6 gap-3 flex-1 md:gap-3 flex flex-col">
-                      <h3 className="font-bold">Recruitment</h3>
-                      <h2 className="text-xl md:text-3xl font-bold">Comprehensive Talent Acquisition Services </h2>
+                      <h3 className="font-bold text-orange-600">Recruitment</h3>
+                      <h2 className="text-xl md:text-3xl font-bold text-blue-900">Comprehensive Talent Acquisition Services </h2>
                       <p className="text-gray-600 mt-2">
                           Matching skilled applicants with the right roles 
                           through extensive interviews and assessments.                        </p>
@@ -167,8 +167,8 @@ export default function Services() {
                   {/* Box 2 - Top right */}
                   <div className="flex flex-col gap-2 md:gap-5 border
                          border-blue-900 rounded-xl p-6">
-                    <h3 className="font-bold">Rebranding</h3>
-                    <h2 className="text-lg md:text-3xl font-bold">Business Structuring</h2>
+                    <h3 className="font-bold text-orange-600">Rebranding</h3>
+                    <h2 className="text-lg md:text-3xl font-bold text-blue-900">Business Structuring</h2>
                     <p className="text-gray-600">
                       Helping businesses redefine their identity while building 
                       solid structures that drive efficiency, growth.
@@ -180,8 +180,8 @@ export default function Services() {
                   overflow-hidden row-span-2 flex flex-col divide-y divide-gray-200">
 
                     <div className="flex flex-col p-6 flex-1 gap-3 md:gap-3">
-                      <h3 className="font-bold">Growth</h3>
-                      <h2 className="text-lg md:text-3xl font-bold"> Company Profile & Financial Analysis</h2>
+                      <h3 className="font-bold text-orange-600">Growth</h3>
+                      <h2 className="text-lg md:text-3xl font-bold text-blue-900"> Company Profile & Financial Analysis</h2>
                       <p className="text-gray-600">
                         Creating compelling company profiles and delivering in-depth financial analysis for smarter decisions.
                       </p>
@@ -203,7 +203,7 @@ export default function Services() {
                       <div className="flex flex-col gap-3 border
                        border-blue-900 rounded-xl p-6">
                         <span><MdModelTraining size={25} className="text-orange-600" /></span>
-                        <h2 className="text-lg font-bold">Customer Service Training</h2>
+                        <h2 className="text-lg font-bold text-blue-900">Customer Service Training</h2>
                           <p className="text-gray-600 mt-2">
                             Equipping staff with practical skills to deliver 
                             outstanding customer service and elevate client satisfaction.
@@ -213,7 +213,7 @@ export default function Services() {
                         <div className="flex flex-col gap-3 border
                          border-blue-900 rounded-xl p-6">
                           <span><IoBarChartSharp size={25} className="text-orange-600" /></span>
-                          <h2 className="text-lg font-bold">Performance & Company Appraisals</h2>
+                          <h2 className="text-lg font-bold text-blue-900">Performance & Company Appraisals</h2>
                             <p className="text-gray-600">
                               Implementing employee review strategies and business
                                appraisals (monthly, quarterly, bi-annually, annually) to track progress.

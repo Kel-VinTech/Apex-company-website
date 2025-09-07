@@ -39,7 +39,7 @@ export default function HomeServices() {
               <div className="flex flex-col items-start gap-2">
                 <MdMiscellaneousServices size={45} className='text-orange-600' />
                 <div className="">
-                  <h1 className="text-xl font-bold py-2">
+                  <h1 className="text-xl font-bold py-2 text-blue-900">
                     Business Planning / Customer Service
 
                   </h1>
@@ -64,7 +64,7 @@ export default function HomeServices() {
               <div className="flex flex-col items-start gap-2">
                 <LuChartNoAxesCombined size={45} className='text-orange-600' />
                 <div className="">
-                  <h1 className="text-xl font-bold py-4">
+                  <h1 className="text-xl font-bold py-4 text-blue-900">
                     Financial Analysis
                   </h1>
 
@@ -88,7 +88,7 @@ export default function HomeServices() {
               <div className="flex flex-col items-start gap-2">
                 <IoPeople size={45} className='text-orange-600' />
                 <div className="">
-                  <h1 className="text-xl font-bold py-4">
+                  <h1 className="text-xl font-bold py-4 text-blue-900">
                     Job Recruitment and Placement
                   </h1>
 

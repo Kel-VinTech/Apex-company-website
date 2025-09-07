@@ -69,7 +69,7 @@ export default function About() {
             {/* RIGHT: Text */}
             <div className="flex flex-col gap-6 flex-1">
               <h2 className="font-bold text-sm text-orange-600">ABOUT US</h2>
-              <h1 className="font-bold text-lg md:text-3xl text-gray-700">
+              <h1 className="font-bold text-lg md:text-3xl text-blue-900">
                 At Apex Consulting Agency, we are more than just recruiters 
               </h1>
               <p className="text-base md:text-lg text-gray-700">
