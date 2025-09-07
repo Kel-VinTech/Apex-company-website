@@ -1,5 +1,6 @@
 import React from 'react'
-import mapImg from "../../assets/image/disccsuion.webp"
+import mapImg from "../../assets/image/contracts.webp"
+import handshake from "../../assets/image/shaking_hands.webp"
 
 
 
@@ -7,6 +8,74 @@ export default function HomeAbout() {
   return (
             <section className="pb-10">
                <div className="pt-20 md:pb-5 px-6 md:px-20 lg:px-32">
+
+
+
+                  {/* first div */}
+                  <div className="flex">
+                     <h4 className="text-orange-600 md:text-base font-semibold mb-2">
+                        ABOUT US
+                     </h4>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2
+                  lg:grid-cols-3 gap-4 pt-8 pb-20">
+
+
+                        <div className="h-45 text-center p-6 bg-red-50 
+                        rounded-sm shadow-sm hover:shadow-md transition">
+                              <div className="flex flex-col items-center gap-2">
+                                 <h1 className="text-xl font-bold py-2">OUR VISION</h1>
+                                 <p className='text-gray-700'>Creating a customer-centric World</p>
+                           
+                              </div>
+                           </div>
+
+                           {/* 2 */}
+
+                             <div className="h-45 text-center p-6 bg-red-50 
+                        rounded-sm shadow-sm hover:shadow-md transition">
+                              <div className="flex flex-col items-center gap-2">
+                                 
+                                 <h1 className="text-xl font-bold py-2">OUR MISSION</h1>
+               
+                                 <p className='text-gray-700'>To positively reshape the world of customer experience in every Nigerian mind</p>
+      
+                              </div>
+                           </div>
+
+                           {/* 3 */}
+
+                             <div className="h-45 text-center  p-6 bg-red-50 
+                                    rounded-sm shadow-sm hover:shadow-md transition">
+                                    <div className="flex flex-col items-center gap-2">
+                                       {/* <MdMiscellaneousServices size={45} className='text-orange-600' /> */}
+                                       <div>
+                                          <h1 className="text-xl font-bold py-2">CORE VALUES</h1>
+
+                                          <div className="grid grid-cols-2 gap-6 text-gray-700">
+                                          {/* Column 1 */}
+                                          <ul className="list-disc pl-6 space-y-2 marker:text-red-500 text-left">
+                                             <li>Love</li>
+                                             <li>Empathy</li>
+                                             <li>Respect</li>
+                                          </ul>
+
+                                          {/* Column 2 */}
+                                          <ul className="list-disc pl-6 space-y-2 marker:text-red-500 text-left">
+                                             <li>Integrity</li>
+                                             <li>Innovativeness</li>
+                                             <li>Consistency</li>
+                                          </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                              </div>
+
+                  </div>
+
+
+                  {/* second div */}
 
                   <div className="grid grid-cols-1 md:grid-cols-2">
 
@@ -27,7 +96,7 @@ export default function HomeAbout() {
                      {/* 2 */}
                      <div className="h-64 md:h-96 bg-cover bg-center"
                         style={{
-                           backgroundImage: `url(${mapImg})`,
+                           backgroundImage: `url(${handshake})`,
                         }}>
                      
                      </div>
