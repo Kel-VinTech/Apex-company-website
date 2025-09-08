@@ -3,6 +3,7 @@
 import { Link } from "react-router-dom";
 import Button from "../elements/Button";
 import { IoCall } from "react-icons/io5";
+import MobileMenu from "../../components/shared/MobileMenu"
 
 import companyLogo from "../../assets/image/compny_logo.webp";
 
@@ -38,11 +39,18 @@ export default function Header() {
         <span  className="flex items-center gap-2
         ">
         <IoCall size={18} />
-          <h3 className="font-bold">+234-9125-532-844</h3>
+          <h3 className="font-bold hidden md:block">+234-9125-532-844</h3>
       </span>
           
       </Button>
+
+
+  
+    {/* Mobile Menu */}
+        <MobileMenu />
     </div>
+ 
+
     </header>
 
   );
