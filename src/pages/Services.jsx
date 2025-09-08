@@ -97,7 +97,7 @@ export default function Services() {
 
                       }}>
                   </div>
-                      <h1 className="md:mb-4 text-2xl md:text-3xl text-center font-bold text-blue-900">Partner with Apex Consulting</h1>
+                      <h1 className="md:mb-4 text-2xl md:text-3xl text-center items-center font-bold text-blue-900">Partner with Apex Consulting</h1>
                       <p className="text-center text-base text-gray-800">Work with us to attract, train, and retain the best talent for your organization.</p>
 
                   </div>
