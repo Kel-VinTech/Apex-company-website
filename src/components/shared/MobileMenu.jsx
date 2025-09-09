@@ -92,33 +92,34 @@ export default function MobileMenu() {
       {/* Dropdown Menu */}
       {open && (
          <div className="absolute top-16 left-0 w-full bg-white 
-                shadow-md rounded-b-xs py-6 flex flex-col justify-center items-center space-y-6 z-50">
+                shadow-md rounded-b-xs py-6 flex flex-col text-sm md: text-lg
+                justify-center items-center space-y-6 z-50">
           
           
           <a
             href="/"
-            className="block text-gray-700 hover:text-blue-700 font-medium"
+            className="block text-blue-900 hover:text-blue-700 font-medium"
             onClick={() => setOpen(false)}
           >
             Home
           </a>
           <a
             href="/about"
-            className="block text-gray-700 hover:text-blue-700 font-medium"
+            className="block text-blue-900 hover:text-blue-700 font-medium"
             onClick={() => setOpen(false)}
           >
             About Us
           </a>
           <a
             href="/services"
-            className="block text-gray-700 hover:text-blue-700 font-medium"
+            className="block text-blue-900 hover:text-blue-700 font-medium"
             onClick={() => setOpen(false)}
           >
             Services
           </a>
           <a
             href="/contact"
-            className="block text-gray-700 hover:text-blue-700 font-medium"
+            className="block text-blue-900 hover:text-blue-700 font-medium"
             onClick={() => setOpen(false)}
           >
             Contact Us
