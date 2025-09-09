@@ -58,7 +58,7 @@ export default function Footer() {
                 {/* Social Icons */}
                 <div className="flex gap-3 mt-4">
                 <a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/share/16zG81TDcR/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-white text-blue-900 hover:bg-blue-700 hover:text-white transition"
@@ -66,7 +66,7 @@ export default function Footer() {
                     <FaFacebookF className="w-5 h-5 md:w-6 md:h-6" />
                 </a>
                 <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/apex_recruitment_agency?igsh=YzljYTk1ODg3Zg=="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-white text-blue-900 hover:bg-pink-600 hover:text-white transition"
@@ -74,7 +74,7 @@ export default function Footer() {
                     <AiFillInstagram className="w-5 h-5 md:w-6 md:h-6" />
                 </a>
                 <a
-                    href="https://tiktok.com"
+                    href="https://www.tiktok.com/@apexconsulting_agency?_t=ZS-8zZLSIkXyjc&_r=1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-white text-blue-900 hover:bg-black hover:text-white transition"
@@ -82,7 +82,7 @@ export default function Footer() {
                     <FaTiktok className="w-5 h-5 md:w-6 md:h-6" />
                 </a>
                 <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/apex-consulting-agency-966845354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-white text-blue-900 hover:bg-blue-700 hover:text-white transition"
