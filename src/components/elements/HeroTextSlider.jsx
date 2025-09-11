@@ -1,18 +1,12 @@
 
-
-
-
-
-
 import { HeroSlides } from "../../utils/HeroSlides";
+
 
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade, Navigation } from "swiper/modules";
+import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-
 
 export default function HeroSlider() {
   return (
@@ -34,35 +28,37 @@ export default function HeroSlider() {
             >
               {/* Overlay */}
               <div className="absolute inset-0 bg-black/40 flex items-start">
-                  <div className="px-6 md:px-20 lg:px-32 text-left
-                   text-white max-w-xl lg:max-w-4xl mt-35 md:mt-65 lg:mt-60">
+                <div className="px-6 md:px-20 lg:px-32 text-left text-white max-w-xl lg:max-w-4xl mt-35 md:mt-65 lg:mt-60">
+                  
+                  {/* Static text */}
+                  <h2 className="text-lg md:text-xl font-semibold text-gray-200 uppercase tracking-wide mb-4">
+                    AT APEX WE OFFER
+                  </h2>
 
-                    <h1 className="text-3xl md:text-5xl font-bold max-w-75 leading-tight">
-                      {slide.title.split(slide.highlight)[0]}
-                      <span className={slide.highlightColor}>
-                        {slide.highlight}
-                      </span>
-                      {slide.title.split(slide.highlight)[1]}
-                    </h1>
+                  {/* Changing text */}
+                  <h1 className="text-3xl md:text-5xl font-bold max-w-75 leading-tight">
+                    {slide.title.split(slide.highlight)[0]}
+                    <span className={slide.highlightColor}>
+                      {slide.highlight}
+                    </span>
+                    {slide.title.split(slide.highlight)[1]}
+                  </h1>
 
-                    <p className="mt-4 text-gray-200 max-w-50 md:max-4xl: text-sm md:text-xl">
-                      {slide.description}
-                    </p>
+                  <p
+                    className={`mt-4 max-w-50 md:max-w-3xl text-sm md:text-xl ${slide.descriptionColor}`}
+                  >
+                    {slide.description}
+                  </p>
 
-                    <div className="mt-6 flex gap-4">
-                      {slide.buttons.map((btn, idx) => (
-                        <button key={idx} className={btn.style}>
-                          {btn.text}
-                        </button>
-                      ))}
-                    </div>
+                  <div className="mt-6 flex gap-4">
+                    {slide.buttons.map((btn, idx) => (
+                      <button key={idx} className={btn.style}>
+                        {btn.text}
+                      </button>
+                    ))}
                   </div>
+                </div>
               </div>
-
-
-
-
-
             </div>
           </SwiperSlide>
         ))}
