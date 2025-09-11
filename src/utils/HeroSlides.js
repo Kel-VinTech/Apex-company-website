@@ -1,6 +1,6 @@
 import peopleAgree from "../../src/assets/image/people_agree.webp"
 import manTeaching from "../../src/assets/image/customer_services.webp"
-import school from "../../src/assets/image/showing_hand.jpg"
+import school from "../../src/assets/image/contracts.webp"
 
 ;
 
@@ -65,7 +65,7 @@ export const HeroSlides = [
       "Providing expert HR support from onboarding to employee development for long-term growth.",
     highlightColor: "text-orange-400",
     imageStyles:
-      "bg-center sm:bg-[position:55%_center] md:bg-[position:60%_center] lg:bg-[position:65%_center]", // shows handshake clearly
+      "bg-center sm:bg-cover md:bg-[position:60%_center] lg:bg-[position:65%_center]", // shows handshake clearly
     buttons: [
       {
         text: "Contact Us",
