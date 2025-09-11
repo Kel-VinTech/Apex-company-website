@@ -24,7 +24,7 @@ import Waiters from "../../src/assets/image/WAITRESS.webp"
 export const cardData = [
   {
     id: 1,
-    title: "Sales Representatives",
+    title: "Sale Representatives",
     image: Sales_rep,
   },
   {
@@ -34,7 +34,7 @@ export const cardData = [
   },
   {
     id: 3,
-    title: "Servers/Waiting Staff",
+    title: "Waiters/ Waitress",
     image: Waiters,
   },
   {
@@ -96,7 +96,7 @@ export const cardData = [
   },
   {
     id: 15,
-    title: "Protocols Officers",
+    title: "Protocol Officers",
     image: Security,
   },
   {

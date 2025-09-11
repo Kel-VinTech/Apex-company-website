@@ -1,5 +1,4 @@
 import React from 'react'
-import mapImg from "../../assets/image/contracts.webp"
 import handshake from "../../assets/image/shaking_hands.webp"
 
 
@@ -13,7 +12,7 @@ export default function HomeAbout() {
 
                   {/* first div */}
                   <div className="flex">
-                     <h4 className="text-orange-600 md:text-base font-semibold mb-2">
+                     <h4 className="text-orange-600 md:text-xl font-semibold mb-2">
                         ABOUT US
                      </h4>
                   </div>
@@ -25,7 +24,7 @@ export default function HomeAbout() {
                         <div className="h-45 text-center p-6 bg-red-50 
                         rounded-sm shadow-sm hover:shadow-md transition">
                               <div className="flex flex-col items-center gap-2">
-                                 <h1 className="text-xl font-bold py-2 text-blue-900">OUR VISION</h1>
+                                 <h1 className="text-xl font-bold py-2 italic text-blue-900">OUR VISION</h1>
                                  <p className='text-gray-700'>Creating a customer-centric World</p>
                            
                               </div>
@@ -37,7 +36,7 @@ export default function HomeAbout() {
                         rounded-sm shadow-sm hover:shadow-md transition">
                               <div className="flex flex-col items-center gap-2">
                                  
-                                 <h1 className="text-xl font-bold py-2 text-blue-900">OUR MISSION</h1>
+                                 <h1 className="text-xl font-bold py-2 italic text-blue-900">OUR MISSION</h1>
                
                                  <p className='text-gray-700'>To positively reshape the world of customer experience in every Nigerian mind</p>
       
@@ -51,7 +50,7 @@ export default function HomeAbout() {
                                     <div className="flex flex-col items-center gap-2">
                                        {/* <MdMiscellaneousServices size={45} className='text-orange-600' /> */}
                                        <div>
-                                          <h1 className="text-xl font-bold py-2 text-blue-900">CORE VALUES</h1>
+                                          <h1 className="text-xl font-bold py-2 italic text-blue-900">CORE VALUES</h1>
 
                                           <div className="grid grid-cols-2 gap-6 text-gray-700">
                                           {/* Column 1 */}
@@ -85,8 +84,8 @@ export default function HomeAbout() {
                            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
                               Connecting the Right Talent <br /> with the Right Companies<span className="text-orange-600">.</span>
                            </h2>
-                           <p className="text-gray-300 mb-5 text-sm md:text-base ">
-                              At <span className="font-semibold">Apex</span>, we take a proactive and personalized approach to recruitment and staffing. By engaging closely with both employers and candidates, we gain a deep understanding of career goals, skills, and organizational culture—ensuring every placement is a true win-win for long-term success.
+                           <p className="text-gray-300 mb-5 text-sm lg:text-lg ">
+                              At <span className="font-semibold">Apex</span>, We take a proactive and personalized approach to recruitment and staffing. By engaging closely with both employers and prospective employee. We gain a deep understanding of career goals, skills, and organizational culture—ensuring every placement is a true win-win for long-term success.
                            </p>
                            <a href="/about" className="text-white font-medium hover:underline">
                               Learn more →
@@ -103,25 +102,35 @@ export default function HomeAbout() {
 
                         {/* 3 */}
 
-                     <div className="h-64 md:h-96 bg-cover bg-center order-last md:order-none"
-                           style={{
-                              backgroundImage: `url(${mapImg})`,
-                           }}>
-         
+                     <div className="h-96 bg-white text-black flex flex-col 
+                        justify-center px-6 lg:px-10"> 
+                           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-blue-900">
+                              Benefits of Working with Apex
+                           </h2>
+                           <h2 className="text-xl md:text-xl lg:text-xl font-bold mb-4 text-orange-600">
+                              For Employees
+                           </h2>
+                           <ul className="list-disc pl-6 space-y-2 md:text-lg text-gray-700 marker:text-orange-600">
+                              <li>Being connected to credible companies </li>
+                              <li>Free customer services training for employees</li>
+                              <li>Candidate follow-up before and after employment</li>
+                           </ul>
+                           
                      </div>
                               {/* 4 */}
                      <div className="h-96 bg-white text-black flex flex-col 
                         justify-center px-6 lg:px-10"> 
                            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-blue-900">
-                              Benefits of Working with Apex<span className="text-orange-600">.</span>
+                              Benefits of Working with Apex
                            </h2>
-                           <ul className="list-disc pl-6 space-y-2 text-gray-700 marker:text-orange-600">
-                              <li>Customer service–trained staff</li>
+                           <h2 className="text-xl md:text-xl lg:text-xl font-bold mb-4 text-orange-600">
+                              For Companies/Businesses
+                           </h2>
+                           <ul className="list-disc pl-6 space-y-2 md:text-lg text-gray-700 marker:text-orange-600">
+                              <li>Customer service–trained employees </li>
                               <li>Dependable and innovative Apex-hired staff</li>
                               <li>Improved employee retention</li>
-                              <li>6-month guaranteed contracts with Apex-hired staff</li>
-                              <li>Trusted guarantors</li>
-                              <li>Sustainable recruitment age range (20–45 years)</li>
+                              <li>Enhanced employee-management relationship</li>
                            </ul>
                            
                      </div>

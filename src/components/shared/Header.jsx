@@ -16,7 +16,7 @@ export default function Header() {
         <img
           src={companyLogo}
           alt="Apex Consulting Logo"
-          className="h-12 w-auto md:w-auto cursor-pointer"
+          className="h-13 w-auto md:h-17 md:w-auto cursor-pointer"
         />
       </a>
 

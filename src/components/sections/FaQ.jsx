@@ -80,40 +80,32 @@ const FAQ = () => {
     {
       question: "What does our recuitment process entail?",
       answer:
-            "At Apex, our recruitment process includes selecting, interviewing and placing applicants in roles they are skilled and qualifed for. " 
+            `At Apex, our recruitment process includes interviewing, selecting and documenting of prospective employee's information. 
+           Only successful applicants proceed to the final stage of interview with the hiring company. `
 },
     {
-      question: "What type of companies do we recruit for?",
-      answer:
-        [
-            "The type of organisation we cater To includes:",
-            "Hospitality- Hotel, Bars, Lounges, Restaurants, Laundromat",
-            "Retail- Supermarket, Pharmacies.",
-           " Education- Montessori, Primary and Secondary Schools",
-            "Finance- Micro finance Bank,Isurance Companies and Finance Houses"
+      question: "After an Applicant's registration, how soon would the applicant get a job?",
+      answer: "We always strive to make sure applicants get their desired job. The timeframe therefore, does not typically exceed a week or two.",
+    },
+    {
+      question: "Do we recruit part-time positions?",
+      answer: "Yes, We recruit both full-time, part-time and internship staff",
+    },
+    {
+      question: "What is required to become an Apex applicant?",
+      answer:   [
+            "In order to become an Applicant at Apex Recruitment Agency, You have to",
+            "Submit a copy of your curriculum vitae/Résumé.",
+            "Submit one passport photograph.",
+           "Submit a photocopy of your NIN slip.",
+           "Submit your guanrantor's details (a photocpy of NIN slip, a passport photograph)"
+
         ],
     },
     {
       question: "What is the cost of our services?",
       answer: "Cost of registration is 2,000 Naira.",
-    },
-    {
-      question: "After an Applicant's registration, how soon would the applicant get a job?",
-      answer: "We always strive to make sure applicants get their desired job. The timeframe therefore, does not usually exceed a week or two.",
-    },
-    {
-      question: "What type of postions do we recruit applicants for?",
-      answer: "We recruit both full-time, part-time staff and internship staff",
-    },
-    {
-      question: "What is required to become an Apex applicant?",
-      answer:   [
-            "In order to become an Applicant at Apex Recruitment Agency, You must",
-            "Submit a copy of your curriculum vitae/Résumé.",
-            "Submit one passport photograph.",
-           "Submit a photocopy of your NIN slip."
-        ],
-    },
+    }
   ];
 
   const toggleFAQ = (index) => {
@@ -126,7 +118,7 @@ const FAQ = () => {
         Frequently Asked Questions
       </h2>
 
-      <div className="space-y-4">
+      <div className="space-y-4 md:text-lg">
         {faqs.map((faq, index) => (
           <div key={index} className="border border-blue-900 rounded-lg p-6 shadow-sm">
             <button
