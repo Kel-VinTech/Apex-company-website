@@ -1,9 +1,8 @@
-import peopleAgree from "../../src/assets/image/people_agree.jpg"
-import manTeaching from "../../src/assets/image/man_teaching.jpg"
-import school from "../../src/assets/image/class.jpg"
+import peopleAgree from "../../src/assets/image/people_agree.webp"
+import manTeaching from "../../src/assets/image/customer_services.webp"
+import school from "../../src/assets/image/showing_hand.jpg"
 
 ;
-
 
 
 
@@ -13,10 +12,12 @@ export const HeroSlides = [
     image: peopleAgree,
     main: "At Apex we offer",
     title: "Job Recruitment",
-    highlight: "Job Recruitment", // colored part
+    highlight: "Job Recruitment",
     description:
       "Connecting reputable employers and companies with reliable talent.",
     highlightColor: "text-orange-400",
+    imageStyles:
+      "bg-center sm:bg-[position:60%_center] md:bg-[position:70%_center] lg:bg-[position:80%_center]", // focuses more to the right on larger screens
     buttons: [
       {
         text: "Contact Us",
@@ -38,7 +39,9 @@ export const HeroSlides = [
     highlight: "Customer Service Training",
     description:
       "Equipping teams with the skills to deliver outstanding customer experiences.",
-    highlightColor: "text-blue-400",
+    highlightColor: "text-blue-300",
+    imageStyles:
+      "bg-[position:45%_center] sm:bg-[position:30%_center] md:bg-[position:40%_center] lg:bg-left", // keeps teacher in focus
     buttons: [
       {
         text: "Contact Us",
@@ -61,6 +64,8 @@ export const HeroSlides = [
     description:
       "Providing expert HR support from onboarding to employee development for long-term growth.",
     highlightColor: "text-orange-400",
+    imageStyles:
+      "bg-center sm:bg-[position:55%_center] md:bg-[position:60%_center] lg:bg-[position:65%_center]", // shows handshake clearly
     buttons: [
       {
         text: "Contact Us",

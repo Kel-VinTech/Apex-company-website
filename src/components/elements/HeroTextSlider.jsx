@@ -8,9 +8,10 @@ import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 
+
 export default function HeroSlider() {
   return (
-    <div className="relative w-full h-screen overflow-hidden mt-[68px] md:mt-[90px]">
+    <div className="relative w-full h-screen overflow-hidden mt-[68px] md:mt-[86px]">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
@@ -23,20 +24,21 @@ export default function HeroSlider() {
         {HeroSlides.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
-              className="w-full h-screen bg-cover bg-center relative"
+              className={`relative w-full h-screen bg-cover bg-no-repeat ${slide.imageStyles || "bg-center"}`}
               style={{ backgroundImage: `url(${slide.image})` }}
             >
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black/40 flex items-start">
-                <div className="px-6 md:px-20 lg:px-32 text-left text-white max-w-xl lg:max-w-4xl mt-35 md:mt-65 lg:mt-60">
+              <div className="absolute inset-0 bg-black/50 sm:bg-black/40 lg:bg-black/30 flex items-start">
+                <div className="px-6 md:px-20 lg:px-32 text-left text-white  
+                 mt-35 md:mt-65 lg:mt-60 max-w-xl lg:max-w-3xl">
                   
                   {/* Static text */}
-                  <h2 className="text-lg md:text-xl font-semibold text-gray-200 uppercase tracking-wide mb-4">
-                    AT APEX WE OFFER
+                  <h2 className="text-base md:text-xl font-normal text-gray-200 tracking-wide mb-3">
+                    {slide.main}
                   </h2>
 
                   {/* Changing text */}
-                  <h1 className="text-3xl md:text-5xl font-bold max-w-75 leading-tight">
+                  <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-snug mb-4">
                     {slide.title.split(slide.highlight)[0]}
                     <span className={slide.highlightColor}>
                       {slide.highlight}
@@ -44,13 +46,13 @@ export default function HeroSlider() {
                     {slide.title.split(slide.highlight)[1]}
                   </h1>
 
-                  <p
-                    className={`mt-4 max-w-50 md:max-w-3xl text-sm md:text-xl ${slide.descriptionColor}`}
-                  >
+                  {/* Description */}
+                  <p className="mt-2 md:mt-4 text-sm md:text-lg lg:text-xl text-gray-200 leading-relaxed">
                     {slide.description}
                   </p>
 
-                  <div className="mt-6 flex gap-4">
+                  {/* Buttons */}
+                  <div className="mt-6 flex flex-wrap gap-4">
                     {slide.buttons.map((btn, idx) => (
                       <button key={idx} className={btn.style}>
                         {btn.text}
@@ -66,4 +68,5 @@ export default function HeroSlider() {
     </div>
   );
 }
+
 

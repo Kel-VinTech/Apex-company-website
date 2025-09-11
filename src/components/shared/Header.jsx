@@ -10,7 +10,7 @@ import companyLogo from "../../assets/image/compny_logo.webp";
 export default function Header() {
   return (
     <header className="fixed z-50 top-0 left-0 w-full shadow-md">
-    <div className="flex justify-between items-center py-2 md:py-4 px-6 
+    <div className="flex justify-between items-center py-2 md:py-2 px-6 
     md:px-20 lg:px-32 bg-white">
       <a className="block no-underline focus:outline-none" href="/">
         <img
