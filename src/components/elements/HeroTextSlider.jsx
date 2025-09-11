@@ -37,7 +37,7 @@ export default function HeroSlider() {
                   <div className="px-6 md:px-20 lg:px-32 text-left
                    text-white max-w-xl lg:max-w-4xl mt-45 md:mt-65 lg:mt-60">
 
-                    <h1 className="text-3xl md:text-5xl font-bold leading-tight">
+                    <h1 className="text-3xl md:text-5xl font-bold max-w-75 leading-tight">
                       {slide.title.split(slide.highlight)[0]}
                       <span className={slide.highlightColor}>
                         {slide.highlight}

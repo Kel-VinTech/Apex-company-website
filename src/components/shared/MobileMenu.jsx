@@ -92,7 +92,7 @@ export default function MobileMenu() {
       {/* Dropdown Menu */}
       {open && (
          <div className="absolute top-16 md:top-20 left-0 h-screen w-full bg-white 
-                shadow-md rounded-b-xs px-7 md:px-22 py-10  flex flex-col text-xl md:text-xl
+                shadow-md rounded-b-xs px-7 md:px-22 py-10 flex flex-col text-lg md:text-xl
                  space-y-12 z-50">
           
           
