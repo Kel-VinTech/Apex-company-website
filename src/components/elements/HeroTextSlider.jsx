@@ -16,7 +16,7 @@ export default function HeroSlider() {
         modules={[Autoplay, EffectFade]}
         effect="fade"
         fadeEffect={{ crossFade: true }}
-        autoplay={{ delay: 4000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}
         speed={1200}
         className="w-full h-full"
@@ -33,7 +33,7 @@ export default function HeroSlider() {
                  mt-35 md:mt-65 lg:mt-60 max-w-xl lg:max-w-3xl">
                   
                   {/* Static text */}
-                  <h2 className="text-base md:text-xl font-normal text-gray-200 tracking-wide mb-3">
+                  <h2 className="text-2xl md:text-2xl font-normal text-gray-200 tracking-wide mb-3">
                     {slide.main}
                   </h2>
 
