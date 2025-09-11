@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 
 export default function HeroSlider() {
   return (
-    <div className="relative w-full h-screen overflow-hidden mt-[72px] md:mt-[90px]">
+    <div className="relative w-full h-screen overflow-hidden mt-[68px] md:mt-[90px]">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
@@ -34,7 +34,8 @@ export default function HeroSlider() {
             >
               {/* Overlay */}
               <div className="absolute inset-0 bg-black/40 flex items-start">
-                  <div className="px-6 md:px-20 lg:px-32 text-left text-white lg:max-w-6xl mt-55 md:mt-60">
+                  <div className="px-6 md:px-20 lg:px-32 text-left
+                   text-white lg:max-w-6xl mt-55 md:mt-65 lg:mt-60">
                     <h1 className="text-3xl md:text-5xl font-bold leading-tight">
                       {slide.title.split(slide.highlight)[0]}
                       <span className={slide.highlightColor}>

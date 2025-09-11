@@ -22,7 +22,7 @@ html {
 /* style the default navigation buttons */
 .swiper-button-prev,
 .swiper-button-next {
-  @apply w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-md hover:bg-blue-700 transition;
+  @apply w-10 h-10 rounded-full bg-blue-900 text-white flex items-center justify-center shadow-md hover:bg-blue-700 transition;
 }
 
 /* style the arrow icons themselves */
