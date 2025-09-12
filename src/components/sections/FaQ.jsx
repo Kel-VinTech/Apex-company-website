@@ -89,16 +89,16 @@ const FAQ = () => {
     },
     {
       question: "Do we recruit part-time positions?",
-      answer: "Yes, We recruit both full-time, part-time and internship staff",
+      answer: "Yes, we recruit full-time, part-time and internship positions",
     },
     {
       question: "What is required to become an Apex applicant?",
       answer:   [
-            "In order to become an Applicant at Apex Recruitment Agency, You have to",
-            "Submit a copy of your curriculum vitae/Résumé.",
-            "Submit one passport photograph.",
-           "Submit a photocopy of your NIN slip.",
-           "Submit your guanrantor's details (a photocpy of NIN slip, a passport photograph)"
+            "In order to become an applicant at Apex Consulting Agency, You have to submit:",
+            "- a copy of your curriculum vitae/Résumé.",
+            "- one passport photograph.",
+           "- a photocopy of your NIN slip.",
+           "- your guanrantor's details (a photocopy of NIN slip, a passport photograph)"
 
         ],
     },

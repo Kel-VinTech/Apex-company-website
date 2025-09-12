@@ -52,13 +52,19 @@ export default function HeroSlider() {
                   </p>
 
                   {/* Buttons */}
-                  <div className="mt-6 flex flex-wrap gap-4">
-                    {slide.buttons.map((btn, idx) => (
-                      <button key={idx} className={btn.style}>
-                        {btn.text}
-                      </button>
-                    ))}
-                  </div>
+                    <div className="mt-6 flex flex-wrap gap-4">
+                        {slide.buttons.map((btn, idx) => (
+                          <a 
+                            key={idx} 
+                            href={btn.href} 
+                            className={btn.style}
+                          >
+                            {btn.text}
+                          </a>
+                        ))}
+                    </div>
+
+
                 </div>
               </div>
             </div>

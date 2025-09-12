@@ -24,7 +24,7 @@ export default function HomeServices() {
               Our aim at <span className="font-semibold px-1">Apex Consulting Agency</span>
               is to provide our clients with world-class human resources and
               managerial solutions while upholding high levels of integrity,
-              trust, and professionalism.
+              trust and professionalism.
             </p>
             <a href="/services" className="bg-orange-600  text-white font-medium px-6 py-3 rounded-lg shadow hover:bg-red-600 transition">
               Learn More
@@ -35,18 +35,18 @@ export default function HomeServices() {
           {/* Right Services */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-10">
 
-            <div className="h-75 md:h-90 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
+            <div className="h-75 md:h-96 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
               <div className="flex flex-col items-start gap-2">
                 <MdMiscellaneousServices size={45} className='text-orange-600' />
                 <div className="flex flex-col justify-between gap-5">
-                  <h1 className="text-xl font-bold py-4 text-blue-900">
+                  <h1 className="text-xl lg:text-2xl font-bold py-4 text-blue-900">
                     Customer Service Training
 
                   </h1>
 
-                  <ul className="list-disc pl-6 md:text-lg space-y-4 text-gray-700">
-                    <li>Basic customer service training.</li>
-                    <li>Advanced Customer Service Training.</li>
+                  <ul className="list-disc text-left pl-6 md:text-lg space-y-4 text-gray-700">
+                    <li>Base-level Customer Service Training.</li>
+                    <li>Advanced-level Customer Service Training.</li>
                   </ul>
                 </div>
 
@@ -58,17 +58,17 @@ export default function HomeServices() {
 
             {/* 2 */}
 
-            <div className="h-85 md:h-90 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
+            <div className="h-90 md:h-96 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
               <div className="flex flex-col items-start gap-2">
                 <LuChartNoAxesCombined size={45} className='text-orange-600' />
                 <div className="">
-                  <h1 className="text-xl  font-bold py-4 text-blue-900">
+                  <h1 className="text-xl lg:text-2xl font-bold py-4 text-blue-900">
                     Business Planning / Financial Analysis
                   </h1>
 
-                  <ul className="list-disc pl-5 md:text-lg space-y-2 text-gray-700">
-                    <li>Company Appraisal(Monthly, Quarterly, Bi-Annually and Annually).</li>
-                    <li>Employee Performance Review.</li>                    
+                  <ul className="text-left list-disc pl-5 md:text-lg space-y-3 text-gray-700">
+                    <li>Employee Performance Review / Company Appraisal.</li>
+                    <li>Company Management Culture / Operational Strategies </li>                    
                     <li>Company Proposals/ Profile Write-Up .</li>
 
 
@@ -84,15 +84,15 @@ export default function HomeServices() {
             {/* 3 */}
 
 
-            <div className="h-85 md:h-90 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
+            <div className="h-85 md:h-96 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
               <div className="flex flex-col items-start gap-2">
                 <IoPeople size={45} className='text-orange-600' />
                 <div className="flex flex-col justify-around gap-5">
-                  <h1 className="text-xl font-bold py-4 text-blue-900">
+                  <h1 className="text-xl lg:text-2xl font-bold py-4 text-blue-900">
                     Job Recruitment and Placement
                   </h1>
 
-                  <ul className="list-disc pl-6 space-y-6 md:text-lg text-gray-700">
+                  <ul className="list-disc text-left pl-6 space-y-6 md:text-lg text-gray-700">
                     <li>Match skilled applicants with job positions most suitable for them.</li>
                     <li>Extensive interview for qualified and skilled applicants.</li>
                   </ul>

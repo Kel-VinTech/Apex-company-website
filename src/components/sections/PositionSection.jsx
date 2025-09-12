@@ -13,10 +13,9 @@ const PositionSection = () => {
             POSITIONS WE RECRUIT FOR
           </h1>
           <p className="text-gray-600 leading-relaxed mb-6 max-w-lg">
-            At Apex Recruitment Agency, we connect top talent with the right
-            opportunities. Whether you’re looking to take the next step in your
-            career or find the perfect candidate for your business, we’ve got
-            you covered.
+            At Apex Consulting Agency, we connect top talents to the most suitable
+            opportunities. Whether you are looking to take the next step in your
+            career or finding the perfect employee for your business, we are here to assists you.
           </p>
           <Button variant='services' href="https://wa.link/hvtcik" className="bg-orange-600 text-gray-200 px-6 py-2 rounded-full hover:bg-red-600 transition">
             Find a Job

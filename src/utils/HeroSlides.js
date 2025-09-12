@@ -17,15 +17,17 @@ export const HeroSlides = [
       "Connecting reputable employers and companies with reliable talent.",
     highlightColor: "text-orange-400",
     imageStyles:
-      "bg-center sm:bg-[position:60%_center] md:bg-[position:70%_center] lg:bg-[position:80%_center]", // focuses more to the right on larger screens
+      "bg-center sm:bg-[position:60%_center] md:bg-[position:70%_center] lg:bg-[position:80%_center]",
     buttons: [
       {
         text: "Contact Us",
+        href: "https://wa.link/hvtcik",  // 👈 add href
         style:
           "px-6 py-3 font-bold bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition",
       },
       {
         text: "Learn More",
+        href: "/services", // 👈 add href
         style:
           "px-6 py-3 border font-bold border-white text-white rounded-lg hover:bg-white hover:text-black transition",
       },
@@ -41,15 +43,17 @@ export const HeroSlides = [
       "Equipping teams with the skills to deliver outstanding customer experiences.",
     highlightColor: "text-blue-300",
     imageStyles:
-      "bg-[position:45%_center] sm:bg-[position:30%_center] md:bg-[position:40%_center] lg:bg-left", // keeps teacher in focus
+      "bg-[position:45%_center] sm:bg-[position:30%_center] md:bg-[position:40%_center] lg:bg-left",
     buttons: [
       {
         text: "Contact Us",
+        href: "https://wa.link/hvtcik",  // 👈 add href
         style:
           "px-6 py-3 font-bold bg-blue-900 text-white rounded-lg hover:bg-blue-700 transition",
       },
       {
         text: "Learn More",
+        href: "/services", // 👈 add href
         style:
           "px-6 py-3 border font-bold border-white text-white rounded-lg hover:bg-white hover:text-black transition",
       },
@@ -65,15 +69,17 @@ export const HeroSlides = [
       "Providing expert HR support from onboarding to employee development for long-term growth.",
     highlightColor: "text-orange-400",
     imageStyles:
-      "bg-center sm:bg-cover md:bg-[position:60%_center] lg:bg-[position:65%_center]", // shows handshake clearly
+      "bg-center sm:bg-cover md:bg-[position:60%_center] lg:bg-[position:65%_center]",
     buttons: [
       {
         text: "Contact Us",
+        href: "https://wa.link/hvtcik", // 👈 add href
         style:
           "px-6 py-3 font-bold bg-blue-900 text-white rounded-lg hover:bg-blue-700 transition",
       },
       {
         text: "Learn More",
+        href: "/services", // 👈 add href
         style:
           "px-6 py-3 border font-bold border-white text-white rounded-lg hover:bg-white hover:text-black transition",
       },
