@@ -43,7 +43,7 @@ export default function Services() {
 
                    <p className="text-gray-800 text-center text-base md:text-lg leading-relaxed max-w-2xl">
                       At Apex Consulting, we specialize in connecting skilled candidates with leading employers. 
-                      Our mission is to strengthen businesses by providing top talent and strategic HR solutions.
+                      Our mission is to strengthen businesses by providing top talents and strategic HR solutions.
                     </p>
 
             </div>
@@ -78,7 +78,7 @@ export default function Services() {
                         backgroundImage: `url(${teamTalk})`,
                       }}>
                   </div>
-                      <h1 className="md:mb-4 text-2xl md:text-3xl text-center text-blue-900 font-bold">Our Recruitment Process Simplified</h1>
+                      <h1 className="md:mb-4 text-2xl md:text-3xl text-center text-blue-900 font-bold">Our Recruitment Process Amplifies</h1>
                       <p className="text-center text-base text-gray-800">Work with us to attract, train, and retain the best talent for your organization.</p>
 
                   </div>
@@ -98,7 +98,7 @@ export default function Services() {
                       }}>
                   </div>
                       <h1 className="md:mb-4 text-2xl md:text-3xl text-center items-center font-bold text-blue-900">Partner with Apex Consulting</h1>
-                      <p className="text-center text-base text-gray-800">Work with us to attract, train, and retain the best talent for your organization.</p>
+                      <p className="text-center text-base text-gray-800">We equip your staff with skills needed to deliver consistent excellence and drive performance.</p>
 
                   </div>
               </div>
@@ -171,7 +171,7 @@ export default function Services() {
                     <h2 className="text-lg md:text-3xl font-bold text-blue-900">Business Structuring</h2>
                     <p className="text-gray-600">
                       Helping businesses redefine their identity while building 
-                      solid structures that drive efficiency, growth.
+                      solid structures that drive efficiency and growth.
                     </p>
                   </div>
 

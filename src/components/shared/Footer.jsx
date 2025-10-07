@@ -18,17 +18,23 @@ export default function Footer() {
             {/* Top Row: Company Info */}
             <div className="grid gap-6 text-sm md:text-base grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             {/* Company Name (aligned like others) */}
-            <div className="flex items-center gap-2">
-                <IoLogoWhatsapp className="w-5 h-5" />
-                <h3 className="font-bold">+234-907-599-1916</h3>
-            </div>
-
+            
+            
             {/* Phone */}
             <div className="flex items-center gap-2">
                 <IoLogoWhatsapp className="w-5 h-5" />
                 <IoCall className="w-5 h-5" />
                 <span className="font-bold">+234-9125-532-844</span>
             </div>
+            
+            
+            
+            <div className="flex items-center gap-2">
+                <IoLogoWhatsapp className="w-5 h-5" />
+                <h3 className="font-bold">+234-907-599-1916</h3>
+            </div>
+
+            
 
             {/* Email */}
             <div className="flex items-center gap-2">
@@ -41,7 +47,7 @@ export default function Footer() {
                 <RiMapPin2Fill className="w-5 h-5 mt-1" />
                 <p className="font-bold leading-relaxed">
                 144 Airport Road after ADP Junction, Adjacent DVD Filling Station <br />
-                before Ogba Zoo, Benin City
+                before Ogba Zoo, Benin City,Edo State, Nigeria.
                 </p>
             </div>
             </div>

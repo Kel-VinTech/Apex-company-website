@@ -82,7 +82,7 @@ export default function HomeAbout() {
                      <div className="h-96 bg-slate-900 text-white flex flex-col 
                         justify-between md:justify-center px-6 py-10 lg:gap-3 lg:px-10">
                            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                              Connecting the Right Talent <br /> with Reputable Companies<span className="text-orange-600">.</span>
+                              Connecting the Right Talent <br /> with Reputable Companies
                            </h2>
                            <p className="text-gray-300 mb-5 text-sm lg:text-lg ">
                               At <span className="font-semibold">Apex</span>, We take a proactive and personalized approach to recruitment and staffing. By engaging closely with both employers and prospective employee. We gain a deep understanding of career goals, skills, and organizational culture—ensuring every placement is a true win-win for long-term success.
@@ -102,7 +102,7 @@ export default function HomeAbout() {
 
                         {/* 3 */}
 
-                     <div className="h-96 bg-white text-black flex flex-col 
+                     <div className="h-82 md:h-96 bg-white text-black flex flex-col 
                         justify-center px-6 lg:px-10"> 
                            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-blue-900">
                               Benefits of Working with Apex
@@ -118,7 +118,7 @@ export default function HomeAbout() {
                            
                      </div>
                               {/* 4 */}
-                     <div className="h-96 bg-white text-black flex flex-col 
+                     <div className="h-82 md:h-96 bg-white text-black flex flex-col 
                         justify-center px-6 lg:px-10"> 
                            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-blue-900">
                               Benefits of Working with Apex
@@ -129,7 +129,7 @@ export default function HomeAbout() {
                            <ul className="list-disc pl-6 space-y-2 md:text-lg text-gray-700 marker:text-orange-600">
                               <li>Customer service–trained employees </li>
                               <li>Dependable and innovative Apex-hired staff</li>
-                              <li>Improved employee retention</li>
+                              <li>Improved employee retention and revenue increase</li>
                               <li>Enhanced employee-management relationship</li>
                            </ul>
                            

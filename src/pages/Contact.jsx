@@ -4,6 +4,8 @@ import { RiMapPin2Fill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { GoClockFill } from "react-icons/go";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 
 import serviceImage from "../../src/assets/image/hotline.webp"
 import mapImg from "../../src/assets/image/map_2.webp"
@@ -71,7 +73,7 @@ export default function Contact() {
                       <RiMapPin2Fill size={30} className="text-blue-900 mb-2" />
                       <h1 className="font-bold text-xs md:text-xs">
                         144 Airport Road after ADP Junction, Adjacent DVD Filling Station <br />
-                        before Ogba Zoo, Benin City
+                        before Ogba Zoo, Benin City,Edo State, Nigeria
                       </h1>
                   </div>
 
@@ -80,13 +82,20 @@ export default function Contact() {
                                     h-40 border-2 border-blue-900 rounded-[15px] text-center p-2">
                       <GoClockFill size={30} className="text-blue-900 mb-2" />
                       <h1 className="font-bold text-xs md:text-xs lg:text-base">
-                        Mon - Fri: 9:00 AM - 5:00 PM
+                        Mon - Fri: 8:00 AM - 5:00 PM
                       </h1>
+                      <h1 className="font-bold text-xs md:text-xs lg:text-base">
+                        Sat:      9:00 AM - 2:00 PM</h1>
                   </div>
 
                   <div className="flex items-center justify-center flex-col lg:text-base
                                     h-40 border-2 border-blue-900 rounded-[15px] text-center p-2">
-                      <IoCall size={30} className="text-blue-900 mb-2" />
+                      
+                      <div className="flex items-center gap-2">
+                          <IoCall size={30} className="text-blue-900 mb-2" />
+                          <IoLogoWhatsapp size={28} className="text-blue-900 mb-2" />
+
+                        </div>
                       <h1 className="font-bold text-xs  md:text-sm lg:text-base">
                         +234-912-553-2844
                       </h1>

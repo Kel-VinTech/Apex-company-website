@@ -91,7 +91,7 @@ export const cardData = [
   },
   {
     id: 14,
-    title: "Human Resources Managers",
+    title: "Human Resource Managers",
     image: HR,
   },
   {
