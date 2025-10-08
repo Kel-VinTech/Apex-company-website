@@ -1,16 +1,39 @@
 @import "tailwindcss";
 
 
+@layer base {
+  .font-body {
+    font-family: 'system-ui', sans-serif !important;
+  }
+
+  .font-heading {
+    font-family: 'Bakbak One', sans-serif !important;
+  }
+
+  .font-hero {
+    font-family: 'Audiowide', cursive !important;
+  }
+
+  .font-quote {
+    font-family: 'Pacifico', serif !important;
+  }
+}
+
+
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* no font-family here */
   line-height: 1.5;
   font-weight: 400;
-
-  font-synthesis: none;
+  
+  /* font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+
 }
+
+
 
 
 html {

@@ -24,7 +24,7 @@ export default function HomeAbout() {
                         <div className="h-45 text-center p-6 bg-red-50 
                         rounded-sm shadow-sm hover:shadow-md transition">
                               <div className="flex flex-col items-center gap-2">
-                                 <h1 className="text-xl font-bold py-2 italic text-blue-900">OUR VISION</h1>
+                                 <h1 className="text-xl font-quote font-bold py-2 italic text-blue-900">OUR VISION</h1>
                                  <p className='text-gray-700 lg:text-lg'>Creating a customer-centric World</p>
                            
                               </div>
@@ -36,7 +36,7 @@ export default function HomeAbout() {
                         rounded-sm shadow-sm hover:shadow-md transition">
                               <div className="flex flex-col items-center gap-2">
                                  
-                                 <h1 className="text-xl font-bold py-2 italic text-blue-900">OUR MISSION</h1>
+                                 <h1 className="text-xl font-quote font-bold py-2 italic text-blue-900">OUR MISSION</h1>
                
                                  <p className='text-gray-700 lg:text-lg'>To positively reshape the world of customer experience in every Nigerian mind</p>
       
@@ -50,7 +50,7 @@ export default function HomeAbout() {
                                     <div className="flex flex-col items-center gap-2">
                                        {/* <MdMiscellaneousServices size={45} className='text-orange-600' /> */}
                                        <div>
-                                          <h1 className="text-xl font-bold py-2 italic text-blue-900">CORE VALUES</h1>
+                                          <h1 className="text-xl font-quote font-bold py-2 italic text-blue-900">CORE VALUES</h1>
 
                                           <div className="grid grid-cols-2 gap-6 text-gray-700">
                                           {/* Column 1 */}

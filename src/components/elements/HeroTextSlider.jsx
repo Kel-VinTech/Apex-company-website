@@ -30,15 +30,15 @@ export default function HeroSlider() {
               {/* Overlay */}
               <div className="absolute inset-0 bg-black/50 sm:bg-black/40 lg:bg-black/30 flex items-start">
                 <div className="px-6 md:px-20 lg:px-32 text-left text-white  
-                 mt-35 md:mt-65 lg:mt-60 max-w-xl lg:max-w-3xl">
+                 mt-60 md:mt-65 lg:mt-60 max-w-xl lg:max-w-3xl">
                   
                   {/* Static text */}
-                  <h2 className="text-2xl md:text-2xl font-normal text-gray-200 tracking-wide mb-3">
+                  <h2 className="text-2xl md:text-2xl font-heading font-normal text-gray-200 tracking-wide mb-3">
                     {slide.main}
                   </h2>
 
                   {/* Changing text */}
-                  <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-snug mb-4">
+                  <h1 className="text-3xl font-heading md:text-5xl font-bold lg:text-6xl  mb-4">
                     {slide.title.split(slide.highlight)[0]}
                     <span className={slide.highlightColor}>
                       {slide.highlight}
