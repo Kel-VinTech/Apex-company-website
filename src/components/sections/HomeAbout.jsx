@@ -102,7 +102,7 @@ export default function HomeAbout() {
 
                         {/* 3 */}
 
-                     <div className="h-82 md:h-96 bg-white text-black flex flex-col 
+                     <div className="h-85 md:h-96 bg-white text-black flex flex-col 
                         justify-center px-6 lg:px-10"> 
                            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-blue-900">
                               Benefits of Working with Apex
@@ -118,7 +118,7 @@ export default function HomeAbout() {
                            
                      </div>
                               {/* 4 */}
-                     <div className="h-82 md:h-96 bg-white text-black flex flex-col 
+                     <div className="h-85 md:h-96 bg-white text-black flex flex-col 
                         justify-center px-6 lg:px-10"> 
                            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-blue-900">
                               Benefits of Working with Apex
