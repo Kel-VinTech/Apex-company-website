@@ -61,7 +61,8 @@ export default function Services() {
                       }}>
                   </div>
                       <h1 className="md:mb-4 text-2xl md:text-3xl text-blue-900 font-bold">Why Choose Apex?</h1>
-                      <p className="text-center text-base text-gray-800">We don’t just recruit — we help you build a stronger, more effective workplace culture.</p>
+                      <p className="text-center text-base text-gray-800">We don’t just recruit — we help organizations build stronger, more effective workplace
+                         cultures and help individuals find the healthiest workplaces to thrive in.</p>
 
                   </div>
               </div>
@@ -78,7 +79,7 @@ export default function Services() {
                         backgroundImage: `url(${teamTalk})`,
                       }}>
                   </div>
-                      <h1 className="md:mb-4 text-2xl md:text-3xl text-center text-blue-900 font-bold">Our Recruitment Process Amplifies</h1>
+                      <h1 className="md:mb-4 text-2xl md:text-3xl text-center text-blue-900 font-bold">Our Extensive Recruitment Process</h1>
                       <p className="text-center text-base text-gray-800">Work with us to attract, train, and retain the best talent for your organization.</p>
 
                   </div>

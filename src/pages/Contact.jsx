@@ -92,13 +92,23 @@ export default function Contact() {
                                     h-40 border-2 border-blue-900 rounded-[15px] text-center p-2">
                       
                       <div className="flex items-center gap-2">
-                          <IoCall size={30} className="text-blue-900 mb-2" />
-                          <IoLogoWhatsapp size={28} className="text-blue-900 mb-2" />
+                          <IoCall size={20} className="text-blue-900 mb-2" />
+                          <IoLogoWhatsapp size={20} className="text-blue-900 mb-2" />
 
                         </div>
                       <h1 className="font-bold text-xs  md:text-sm lg:text-base">
                         +234-912-553-2844
                       </h1>
+
+                      <div className="flex items-center gap-2 pt-4">
+                          <IoLogoWhatsapp size={20} className="text-blue-900 mb-2" />
+
+                        </div>
+                      <h1 className="font-bold text-xs  md:text-sm lg:text-base">
+                        +234-907-599-1916
+                      </h1>
+                      
+
                   </div>
 
                   <div className="flex items-center justify-center flex-col

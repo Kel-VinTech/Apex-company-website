@@ -20,7 +20,7 @@ export default function Industry() {
               <p className="md:text-lg text-gray-600 leading-relaxed mb-2 max-w-lg">
                  At Apex, we specialize in serving diverse industries with 
                   tailored recruitment solutions. From finance and healthcare to technology 
-                  and marketing, we connect businesses with top talent that drives success.
+                  and marketing, we connect businesses with top talents that drives success.
               </p>
               
           </div>
@@ -86,6 +86,8 @@ export default function Industry() {
 
                   <p className="text-gray-600 text-base">Supermarkets</p>
                   <p className="text-gray-600 text-base">Pharmacies</p>
+                  <p className="text-gray-600 text-base">Bakeries</p>
+                  <p className="text-gray-600 text-base">Boutiques / Clothing stores</p>
 
                 {/* Apply Link */}
                 <a

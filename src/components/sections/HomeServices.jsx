@@ -35,6 +35,32 @@ export default function HomeServices() {
           {/* Right Services */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-10">
 
+
+
+            {/* 1 */}
+
+
+            <div className="h-85 md:h-96 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
+              <div className="flex flex-col items-start gap-2">
+                <IoPeople size={45} className='text-orange-600' />
+                <div className="flex flex-col justify-around gap-5">
+                  <h1 className="text-xl lg:text-2xl font-bold py-4 text-blue-900">
+                    Job Recruitment and Placement
+                  </h1>
+
+                  <ul className="list-disc text-left pl-6 space-y-6 md:text-lg text-gray-700">
+                    <li>Match skilled applicants with job positions most suitable for them.</li>
+                    <li>Extensive interview for qualified and skilled applicants.</li>
+                  </ul>
+                </div>
+
+              </div>
+
+
+            </div>
+
+            {/* 2 */}
+
             <div className="h-75 md:h-96 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
               <div className="flex flex-col items-start gap-2">
                 <MdMiscellaneousServices size={45} className='text-orange-600' />
@@ -56,7 +82,7 @@ export default function HomeServices() {
             </div>
 
 
-            {/* 2 */}
+            {/* 3 */}
 
             <div className="h-90 md:h-96 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
               <div className="flex flex-col items-start gap-2">
@@ -81,27 +107,6 @@ export default function HomeServices() {
             </div>
 
 
-            {/* 3 */}
-
-
-            <div className="h-85 md:h-96 text-center p-6 bg-gray-50 rounded-2xl shadow-sm hover:shadow-md transition">
-              <div className="flex flex-col items-start gap-2">
-                <IoPeople size={45} className='text-orange-600' />
-                <div className="flex flex-col justify-around gap-5">
-                  <h1 className="text-xl lg:text-2xl font-bold py-4 text-blue-900">
-                    Job Recruitment and Placement
-                  </h1>
-
-                  <ul className="list-disc text-left pl-6 space-y-6 md:text-lg text-gray-700">
-                    <li>Match skilled applicants with job positions most suitable for them.</li>
-                    <li>Extensive interview for qualified and skilled applicants.</li>
-                  </ul>
-                </div>
-
-              </div>
-
-
-            </div>
 
 
           </div>
