@@ -39,7 +39,7 @@ export default function Footer() {
             {/* Email */}
             <div className="flex items-center gap-2">
                 <MdEmail className="w-5 h-5" />
-                <span className="font-bold">apexrecruitmentagency812@gmail.com</span>
+                <span className="font-bold">jobs@apexconsulting.ng</span>
             </div>
 
             {/* Address */}

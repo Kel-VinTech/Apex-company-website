@@ -115,7 +115,7 @@ export default function Contact() {
                                 h-40 border-2 border-blue-900 rounded-[15px] text-center p-2 overflow-hidden">
                               <MdEmail size={30} className="text-blue-900 mb-2" />
                           <p className="font-bold text-xs md:text-xs lg:text-base break-words md:max-w-[150px] lg:max-w-full">
-                            Apexrecruitmentagency812@gmail.com
+                            jobs@apexconsulting.ng
                             </p>
                     </div>
 
