@@ -75,12 +75,16 @@ export default function About() {
               <p className="text-base md:text-lg text-gray-700">
                 Apex Consulting Agency is a full-service 
                 recruitment and HR consulting firm based in Benin City, Nigeria. We help businesses
-                 build exceptional teams through recruitment, onboarding, and strategic HR support.
-              </p>
-              <p className="text-base md:text-lg text-gray-700">
-                We go beyond recruitment—helping you strengthen your workforce 
+                 build exceptional teams through recruitment, onboarding, and strategic HR support. 
+                 We go beyond recruitment—helping you strengthen your workforce 
                 and achieve your company’s vision.
               </p>
+              <p className="text-base md:text-lg text-gray-700">
+               Apex began its journey in 2020 with a focus on customer service training.
+                As business needs evolved, we expanded in 2021 to include HR services 
+                such as recruitment and policy handbook development.
+
+          </p>
               <Button variant="secondary" href="https://wa.link/hvtcik">Contact Us
               </Button>
 
@@ -91,6 +95,8 @@ export default function About() {
                     backgroundImage: `url(${gathering})`,
                     }}>
                 </div>
+
+
             </div>
 
           </div>
